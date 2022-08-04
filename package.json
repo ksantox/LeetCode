@@ -1,0 +1,21 @@
+{
+  "name": "leet-code",
+  "version": "1.0.0",
+  "description": "A project that provides solutions to problems from leetcode.com",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksantox/LeetCode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksantox/LeetCode/issues"
+  },
+  "homepage": "https://github.com/ksantox/LeetCode#readme"
+}
