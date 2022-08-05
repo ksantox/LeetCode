@@ -1,6 +1,7 @@
 import FizzBuzz from "../412.FizzBuzz/index.js";
 import RansomNote from "../383.RansomNote/index.js";
 import RomanToInteger from "../13.RomanToInteger/index.js";
+import MiddleOfLinkedList from "../876.MiddleOfLinkedList/index.js";
 import PalindromeLinkedList from "../234.PalindromeLinkedList/index.js";
 
 export const ProblemMap = {
@@ -23,5 +24,10 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: FizzBuzz,
         link: "https://leetcode.com/problems/fizz-buzz/"
+    },
+    876: {
+        requiredArguments: 1,
+        solution: MiddleOfLinkedList,
+        link: "https://leetcode.com/problems/middle-of-the-linked-list/"
     }
 }
