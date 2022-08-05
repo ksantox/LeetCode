@@ -32,7 +32,7 @@ function problemExecutor() {
     console.log(`Running problem ${problemId} from ${problem.link}.`);
     const result = problem.solution(...problemArgs);
     
-    if(result) {
+    if(result !== undefined) {
         console.log("Logging result:");
         console.log(result);
     }
