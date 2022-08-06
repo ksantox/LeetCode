@@ -1,31 +1,8 @@
-import Node from "../common/LinkedListNode.js";
+import { setupLinkedList } from "../common/argumentBuilders.js";
 
-function setupLinkedList(numbers) {
-    if(!numbers || !/[0-9](,\s{0,1}[0-9]){0,}/.test(numbers)) {
-        throw new Error(`Invalid data received: ${numbers}, expected a list of numbers separated by a column.`);
-    }
-
-    const numbersArray = numbers.split(",");
-
-    const parsedArray = numbersArray.map(number => {
-        if(isNaN(number)) {
-            throw new Error(`Invalid number received: ${number}.`);
-        }
-
-        return parseInt(number);
-    })
-
-    const head = new Node(parsedArray[0]);
-    let node = head;
-
-    for(let i = 1; i < parsedArray.length; i++) {
-        const newNode = new Node(parsedArray[i]);
-
-        node.next = newNode;
-        node = node.next;
-    }
-
-    return middleNode(head);
+function setupArguments(numbersString) {
+    const numbers = setupLinkedList(numbersString);
+    return middleNode(numbers);
 }
 
 function middleNode(head) {
@@ -40,4 +17,4 @@ function middleNode(head) {
     return slow;
 }
 
-export default setupLinkedList;
+export default setupArguments;

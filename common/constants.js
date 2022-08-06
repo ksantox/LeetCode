@@ -4,6 +4,7 @@ import RomanToInteger from "../13.RomanToInteger/index.js";
 import MiddleOfLinkedList from "../876.MiddleOfLinkedList/index.js";
 import StepsToReduceToZero from "../1342.StepsToReduceToZero/index.js";
 import PalindromeLinkedList from "../234.PalindromeLinkedList/index.js";
+import RichestCustomerWealth from "../1672.RichestCustomerWealth/index.js";
 import TheWeakestRowsInMatrix from "../1337.TheWeakestRowsInMatrix/index.js";
 
 export const ProblemMap = {
@@ -42,5 +43,10 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: StepsToReduceToZero,
         link: "https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/"
+    },
+    1672: {
+        requiredArguments: 1,
+        solution: RichestCustomerWealth,
+        link: "https://leetcode.com/problems/richest-customer-wealth/"
     }
 }
