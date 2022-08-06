@@ -3,6 +3,7 @@ import RansomNote from "../383.RansomNote/index.js";
 import RomanToInteger from "../13.RomanToInteger/index.js";
 import MiddleOfLinkedList from "../876.MiddleOfLinkedList/index.js";
 import PalindromeLinkedList from "../234.PalindromeLinkedList/index.js";
+import TheWeakestRowsInMatrix from "../1337.TheWeakestRowsInMatrix/index.js";
 
 export const ProblemMap = {
     13: {
@@ -29,5 +30,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: MiddleOfLinkedList,
         link: "https://leetcode.com/problems/middle-of-the-linked-list/"
+    },
+    1337: {
+        defaults: ["matrix"],
+        requiredArguments: 1,
+        solution: TheWeakestRowsInMatrix,
+        link: "https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/"
     }
 }

@@ -29,7 +29,13 @@ function problemExecutor() {
         process.exit(1);
     }
 
-    console.log(`Running problem ${problemId} from ${problem.link}.`);
+    let defaultArguments = "";
+    
+    if(problem.defaults) {
+        defaultArguments = ` with defaults "${problem.defaults.join(", ")}"`;
+    }
+
+    console.log(`Running problem ${problemId}${defaultArguments} from ${problem.link}.`);
     const result = problem.solution(...problemArgs);
     
     if(result !== undefined) {
