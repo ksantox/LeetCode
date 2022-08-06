@@ -2,6 +2,7 @@ import FizzBuzz from "../412.FizzBuzz/index.js";
 import RansomNote from "../383.RansomNote/index.js";
 import RomanToInteger from "../13.RomanToInteger/index.js";
 import RunningSumArray from "../1480.RunningSumArray/index.js";
+import MaxConsecutiveOnes from "../485.MaxConsecutiveOnes/index.js";
 import MiddleOfLinkedList from "../876.MiddleOfLinkedList/index.js";
 import StepsToReduceToZero from "../1342.StepsToReduceToZero/index.js";
 import PalindromeLinkedList from "../234.PalindromeLinkedList/index.js";
@@ -28,6 +29,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: FizzBuzz,
         link: "https://leetcode.com/problems/fizz-buzz/"
+    },
+    485: {
+        requiredArguments: 1,
+        solution: MaxConsecutiveOnes,
+        link: "https://leetcode.com/problems/max-consecutive-ones/"
     },
     876: {
         requiredArguments: 1,
