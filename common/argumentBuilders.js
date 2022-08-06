@@ -5,15 +5,7 @@ function setupLinkedList(numberString) {
         throw new Error(`Invalid data received: ${numberString}, expected a list of numbers separated by a column.`);
     }
 
-    const items = numberString.replace(/[\[\]]/g, "").split(/,\s{0,}/g);
-
-    const parsedArray = items.map(number => {
-        if(isNaN(number)) {
-            throw new Error(`Invalid number received: ${number}.`);
-        }
-
-        return parseInt(number);
-    })
+    const parsedArray = setupNumberArray(numberString);
 
     const head = new Node(parsedArray[0]);
     let node = head;
@@ -26,6 +18,20 @@ function setupLinkedList(numberString) {
     }
 
     return head;
+}
+
+function setupNumberArray(string) {
+    const items = string.replace(/[\[\]]/g, "").split(/,\s{0,}/g);
+
+    const parsedArray = items.map(number => {
+        if(isNaN(number)) {
+            throw new Error(`Invalid number received: ${number}.`);
+        }
+
+        return parseInt(number);
+    });
+
+    return parsedArray;
 }
 
 function setupNestedArray(string) {
@@ -55,5 +61,6 @@ function setupNestedArray(string) {
 
 export {
     setupLinkedList,
-    setupNestedArray
+    setupNestedArray,
+    setupNumberArray,
 }

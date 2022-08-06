@@ -1,6 +1,7 @@
 import FizzBuzz from "../412.FizzBuzz/index.js";
 import RansomNote from "../383.RansomNote/index.js";
 import RomanToInteger from "../13.RomanToInteger/index.js";
+import RunningSumArray from "../1480.RunningSumArray/index.js";
 import MiddleOfLinkedList from "../876.MiddleOfLinkedList/index.js";
 import StepsToReduceToZero from "../1342.StepsToReduceToZero/index.js";
 import PalindromeLinkedList from "../234.PalindromeLinkedList/index.js";
@@ -48,5 +49,10 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: RichestCustomerWealth,
         link: "https://leetcode.com/problems/richest-customer-wealth/"
+    },
+    1480: {
+        requiredArguments: 1,
+        solution: RunningSumArray,
+        link: "https://leetcode.com/problems/running-sum-of-1d-array/"
     }
 }
