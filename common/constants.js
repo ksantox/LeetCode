@@ -8,6 +8,7 @@ import StepsToReduceToZero from "../1342.StepsToReduceToZero/index.js";
 import PalindromeLinkedList from "../234.PalindromeLinkedList/index.js";
 import RichestCustomerWealth from "../1672.RichestCustomerWealth/index.js";
 import TheWeakestRowsInMatrix from "../1337.TheWeakestRowsInMatrix/index.js";
+import FindNumbersWithEvenDigits from "../1295.FindNumbersWithEvenDigits/index.js";
 
 export const ProblemMap = {
     13: {
@@ -39,6 +40,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: MiddleOfLinkedList,
         link: "https://leetcode.com/problems/middle-of-the-linked-list/"
+    },
+    1295: {
+        requiredArguments: 1,
+        solution: FindNumbersWithEvenDigits,
+        link: "https://leetcode.com/problems/find-numbers-with-even-number-of-digits/"
     },
     1337: {
         defaults: ["matrix"],
