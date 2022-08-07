@@ -1,6 +1,7 @@
 import FizzBuzz from "../412.FizzBuzz/index.js";
 import RansomNote from "../383.RansomNote/index.js";
 import RomanToInteger from "../13.RomanToInteger/index.js";
+import DuplicateZeros from "../1089.DuplicateZeros/index.js";
 import RunningSumArray from "../1480.RunningSumArray/index.js";
 import MaxConsecutiveOnes from "../485.MaxConsecutiveOnes/index.js";
 import MiddleOfLinkedList from "../876.MiddleOfLinkedList/index.js";
@@ -46,6 +47,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: SquaresOfSortedArray,
         link: "https://leetcode.com/problems/squares-of-a-sorted-array/"
+    },
+    1089: {
+        requiredArguments: 1,
+        solution: DuplicateZeros,
+        link: "https://leetcode.com/problems/duplicate-zeros/"
     },
     1295: {
         requiredArguments: 1,
