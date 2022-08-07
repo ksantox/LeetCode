@@ -5,6 +5,7 @@ import RunningSumArray from "../1480.RunningSumArray/index.js";
 import MaxConsecutiveOnes from "../485.MaxConsecutiveOnes/index.js";
 import MiddleOfLinkedList from "../876.MiddleOfLinkedList/index.js";
 import StepsToReduceToZero from "../1342.StepsToReduceToZero/index.js";
+import SquaresOfSortedArray from "../977.SquaresOfSortedArray/index.js";
 import PalindromeLinkedList from "../234.PalindromeLinkedList/index.js";
 import RichestCustomerWealth from "../1672.RichestCustomerWealth/index.js";
 import TheWeakestRowsInMatrix from "../1337.TheWeakestRowsInMatrix/index.js";
@@ -40,6 +41,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: MiddleOfLinkedList,
         link: "https://leetcode.com/problems/middle-of-the-linked-list/"
+    },
+    977: {
+        requiredArguments: 1,
+        solution: SquaresOfSortedArray,
+        link: "https://leetcode.com/problems/squares-of-a-sorted-array/"
     },
     1295: {
         requiredArguments: 1,
