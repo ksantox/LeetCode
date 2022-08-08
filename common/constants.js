@@ -1,6 +1,7 @@
 import FizzBuzz from "../412.FizzBuzz/index.js";
 import RansomNote from "../383.RansomNote/index.js";
 import RomanToInteger from "../13.RomanToInteger/index.js";
+import FindPivotIndex from "../724.FindPivotIndex/index.js";
 import DuplicateZeros from "../1089.DuplicateZeros/index.js";
 import RunningSumArray from "../1480.RunningSumArray/index.js";
 import MergeSortedArray from "../88.MergeSortedArray/index.js";
@@ -43,6 +44,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: MaxConsecutiveOnes,
         link: "https://leetcode.com/problems/max-consecutive-ones/"
+    },
+    724: {
+        requiredArguments: 1,
+        solution: FindPivotIndex,
+        link: "https://leetcode.com/problems/find-pivot-index/"
     },
     876: {
         requiredArguments: 1,
