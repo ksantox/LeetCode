@@ -5,6 +5,7 @@ import FindPivotIndex from "../724.FindPivotIndex/index.js";
 import DuplicateZeros from "../1089.DuplicateZeros/index.js";
 import RunningSumArray from "../1480.RunningSumArray/index.js";
 import MergeSortedArray from "../88.MergeSortedArray/index.js";
+import ContainsDuplicate from "../217.ContainsDuplicate/index.js";
 import MaxConsecutiveOnes from "../485.MaxConsecutiveOnes/index.js";
 import MiddleOfLinkedList from "../876.MiddleOfLinkedList/index.js";
 import StepsToReduceToZero from "../1342.StepsToReduceToZero/index.js";
@@ -24,6 +25,11 @@ export const ProblemMap = {
         requiredArguments: 4,
         solution: MergeSortedArray,
         link: "https://leetcode.com/problems/merge-sorted-array/"
+    },
+    217: {
+        requiredArguments: 1,
+        solution: ContainsDuplicate,
+        link: "https://leetcode.com/problems/contains-duplicate/"
     },
     234: {
         requiredArguments: 1,
