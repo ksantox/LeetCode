@@ -3,6 +3,7 @@ import RansomNote from "../383.RansomNote/index.js";
 import RomanToInteger from "../13.RomanToInteger/index.js";
 import DuplicateZeros from "../1089.DuplicateZeros/index.js";
 import RunningSumArray from "../1480.RunningSumArray/index.js";
+import MergeSortedArray from "../88.MergeSortedArray/index.js";
 import MaxConsecutiveOnes from "../485.MaxConsecutiveOnes/index.js";
 import MiddleOfLinkedList from "../876.MiddleOfLinkedList/index.js";
 import StepsToReduceToZero from "../1342.StepsToReduceToZero/index.js";
@@ -17,6 +18,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: RomanToInteger,
         link: "https://leetcode.com/problems/roman-to-integer/"
+    },
+    88: {
+        requiredArguments: 4,
+        solution: MergeSortedArray,
+        link: "https://leetcode.com/problems/merge-sorted-array/"
     },
     234: {
         requiredArguments: 1,
