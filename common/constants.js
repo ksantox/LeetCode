@@ -6,6 +6,7 @@ import IsSubsequence from "../392.IsSubsequence/index.js";
 import RomanToInteger from "../13.RomanToInteger/index.js";
 import FindPivotIndex from "../724.FindPivotIndex/index.js";
 import DuplicateZeros from "../1089.DuplicateZeros/index.js";
+import FirstBadVersion from "../278.FirstBadVersion/index.js";
 import RunningSumArray from "../1480.RunningSumArray/index.js";
 import MergeSortedArray from "../88.MergeSortedArray/index.js";
 import IsomorphicStrings from "../205.IsomorphicStrings/index.js";
@@ -49,6 +50,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: PalindromeLinkedList,
         link: "https://leetcode.com/problems/palindrome-linked-list/"
+    },
+    278: {
+        requiredArguments: 2,
+        solution: FirstBadVersion,
+        link: "https://leetcode.com/problems/first-bad-version/"
     },
     383: {
         requiredArguments: 2,
