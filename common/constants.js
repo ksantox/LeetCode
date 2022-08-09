@@ -1,3 +1,4 @@
+import TwoSum from "../1.TwoSum/index.js";
 import FizzBuzz from "../412.FizzBuzz/index.js";
 import RansomNote from "../383.RansomNote/index.js";
 import BinarySearch from "../704.BinarySearch/index.js";
@@ -19,6 +20,11 @@ import TheWeakestRowsInMatrix from "../1337.TheWeakestRowsInMatrix/index.js";
 import FindNumbersWithEvenDigits from "../1295.FindNumbersWithEvenDigits/index.js";
 
 export const ProblemMap = {
+    1: {
+        requiredArguments: 2,
+        solution: TwoSum,
+        link: "https://leetcode.com/problems/two-sum/"
+    },
     13: {
         requiredArguments: 1,
         solution: RomanToInteger,
