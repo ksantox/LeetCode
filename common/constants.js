@@ -7,6 +7,7 @@ import FindPivotIndex from "../724.FindPivotIndex/index.js";
 import DuplicateZeros from "../1089.DuplicateZeros/index.js";
 import RunningSumArray from "../1480.RunningSumArray/index.js";
 import MergeSortedArray from "../88.MergeSortedArray/index.js";
+import IsomorphicStrings from "../205.IsomorphicStrings/index.js";
 import ContainsDuplicate from "../217.ContainsDuplicate/index.js";
 import MaxConsecutiveOnes from "../485.MaxConsecutiveOnes/index.js";
 import MiddleOfLinkedList from "../876.MiddleOfLinkedList/index.js";
@@ -28,10 +29,10 @@ export const ProblemMap = {
         solution: MergeSortedArray,
         link: "https://leetcode.com/problems/merge-sorted-array/"
     },
-    392: {
+    205: {
         requiredArguments: 2,
-        solution: IsSubsequence,
-        link: "https://leetcode.com/problems/is-subsequence/"
+        solution: IsomorphicStrings,
+        link: "https://leetcode.com/problems/isomorphic-strings/"
     },
     217: {
         requiredArguments: 1,
@@ -47,6 +48,11 @@ export const ProblemMap = {
         requiredArguments: 2,
         solution: RansomNote,
         link: "https://leetcode.com/problems/ransom-note/"
+    },
+    392: {
+        requiredArguments: 2,
+        solution: IsSubsequence,
+        link: "https://leetcode.com/problems/is-subsequence/"
     },
     412: {
         requiredArguments: 1,
