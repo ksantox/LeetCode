@@ -14,6 +14,7 @@ import ContainsDuplicate from "../217.ContainsDuplicate/index.js";
 import MaxConsecutiveOnes from "../485.MaxConsecutiveOnes/index.js";
 import MiddleOfLinkedList from "../876.MiddleOfLinkedList/index.js";
 import StepsToReduceToZero from "../1342.StepsToReduceToZero/index.js";
+import SearchInsertPosition from "../35.SearchInsertPosition/index.js";
 import SquaresOfSortedArray from "../977.SquaresOfSortedArray/index.js";
 import PalindromeLinkedList from "../234.PalindromeLinkedList/index.js";
 import RichestCustomerWealth from "../1672.RichestCustomerWealth/index.js";
@@ -30,6 +31,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: RomanToInteger,
         link: "https://leetcode.com/problems/roman-to-integer/"
+    },
+    35: {
+        requiredArguments: 2,
+        solution: SearchInsertPosition,
+        link: "https://leetcode.com/problems/search-insert-position/"
     },
     88: {
         requiredArguments: 4,
