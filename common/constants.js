@@ -1,6 +1,7 @@
 import FizzBuzz from "../412.FizzBuzz/index.js";
 import RansomNote from "../383.RansomNote/index.js";
 import BinarySearch from "../704.BinarySearch/index.js";
+import IsSubsequence from "../392.IsSubsequence/index.js";
 import RomanToInteger from "../13.RomanToInteger/index.js";
 import FindPivotIndex from "../724.FindPivotIndex/index.js";
 import DuplicateZeros from "../1089.DuplicateZeros/index.js";
@@ -26,6 +27,11 @@ export const ProblemMap = {
         requiredArguments: 4,
         solution: MergeSortedArray,
         link: "https://leetcode.com/problems/merge-sorted-array/"
+    },
+    392: {
+        requiredArguments: 2,
+        solution: IsSubsequence,
+        link: "https://leetcode.com/problems/is-subsequence/"
     },
     217: {
         requiredArguments: 1,
