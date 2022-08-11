@@ -13,6 +13,7 @@ import IsomorphicStrings from "../205.IsomorphicStrings/index.js";
 import ContainsDuplicate from "../217.ContainsDuplicate/index.js";
 import MaxConsecutiveOnes from "../485.MaxConsecutiveOnes/index.js";
 import MiddleOfLinkedList from "../876.MiddleOfLinkedList/index.js";
+import MergeTwoSortedLists from "../21.MergeTwoSortedLists/index.js";
 import StepsToReduceToZero from "../1342.StepsToReduceToZero/index.js";
 import SearchInsertPosition from "../35.SearchInsertPosition/index.js";
 import SquaresOfSortedArray from "../977.SquaresOfSortedArray/index.js";
@@ -31,6 +32,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: RomanToInteger,
         link: "https://leetcode.com/problems/roman-to-integer/"
+    },
+    21: {
+        requiredArguments: 2,
+        solution: MergeTwoSortedLists,
+        link: "https://leetcode.com/problems/merge-two-sorted-lists/"
     },
     35: {
         requiredArguments: 2,
