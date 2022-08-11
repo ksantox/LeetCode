@@ -21,6 +21,7 @@ import SquaresOfSortedArray from "../977.SquaresOfSortedArray/index.js";
 import PalindromeLinkedList from "../234.PalindromeLinkedList/index.js";
 import RichestCustomerWealth from "../1672.RichestCustomerWealth/index.js";
 import TheWeakestRowsInMatrix from "../1337.TheWeakestRowsInMatrix/index.js";
+import ValidateBinarySearchTree from "../98.ValidateBinarySearchTree/index.js";
 import FindNumbersWithEvenDigits from "../1295.FindNumbersWithEvenDigits/index.js";
 
 export const ProblemMap = {
@@ -48,6 +49,11 @@ export const ProblemMap = {
         requiredArguments: 4,
         solution: MergeSortedArray,
         link: "https://leetcode.com/problems/merge-sorted-array/"
+    },
+    98: {
+        requiredArguments: 0,
+        solution: ValidateBinarySearchTree,
+        link: "https://leetcode.com/problems/validate-binary-search-tree/"
     },
     205: {
         requiredArguments: 2,
