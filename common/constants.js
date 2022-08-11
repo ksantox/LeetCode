@@ -10,6 +10,7 @@ import FirstBadVersion from "../278.FirstBadVersion/index.js";
 import RunningSumArray from "../1480.RunningSumArray/index.js";
 import MergeSortedArray from "../88.MergeSortedArray/index.js";
 import IsomorphicStrings from "../205.IsomorphicStrings/index.js";
+import ReverseLinkedList from "../206.ReverseLinkedList/index.js";
 import ContainsDuplicate from "../217.ContainsDuplicate/index.js";
 import MaxConsecutiveOnes from "../485.MaxConsecutiveOnes/index.js";
 import MiddleOfLinkedList from "../876.MiddleOfLinkedList/index.js";
@@ -52,6 +53,11 @@ export const ProblemMap = {
         requiredArguments: 2,
         solution: IsomorphicStrings,
         link: "https://leetcode.com/problems/isomorphic-strings/"
+    },
+    206: {
+        requiredArguments: 1,
+        solution: ReverseLinkedList,
+        link: "https://leetcode.com/problems/reverse-linked-list/"
     },
     217: {
         requiredArguments: 1,
