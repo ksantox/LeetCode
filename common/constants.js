@@ -1,5 +1,6 @@
 import TwoSum from "../1.TwoSum/index.js";
 import FizzBuzz from "../412.FizzBuzz/index.js";
+import MoveZeroes from "../283.MoveZeroes/index.js";
 import RansomNote from "../383.RansomNote/index.js";
 import BinarySearch from "../704.BinarySearch/index.js";
 import IsSubsequence from "../392.IsSubsequence/index.js";
@@ -104,6 +105,11 @@ export const ProblemMap = {
         requiredArguments: 2,
         solution: FirstBadVersion,
         link: "https://leetcode.com/problems/first-bad-version/"
+    },
+    283: {
+        requiredArguments: 1,
+        solution: MoveZeroes,
+        link: "https://leetcode.com/problems/move-zeroes/"
     },
     383: {
         requiredArguments: 2,
