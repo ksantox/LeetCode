@@ -25,6 +25,7 @@ import RichestCustomerWealth from "../1672.RichestCustomerWealth/index.js";
 import TheWeakestRowsInMatrix from "../1337.TheWeakestRowsInMatrix/index.js";
 import LowestCommonAncestorBST from "../235.LowestCommonAncestorBST/index.js";
 import ValidateBinarySearchTree from "../98.ValidateBinarySearchTree/index.js";
+import BestTimeToBuyAndSellStock from "../121.BestTimeToBuyAndSellStock/index.js";
 import FindNumbersWithEvenDigits from "../1295.FindNumbersWithEvenDigits/index.js";
 
 export const ProblemMap = {
@@ -57,6 +58,11 @@ export const ProblemMap = {
         requiredArguments: 0,
         solution: ValidateBinarySearchTree,
         link: "https://leetcode.com/problems/validate-binary-search-tree/"
+    },
+    121: {
+        requiredArguments: 1,
+        solution: BestTimeToBuyAndSellStock,
+        link: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
     },
     141: {
         requiredArguments: 2,
