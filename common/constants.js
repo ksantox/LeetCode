@@ -23,6 +23,7 @@ import SquaresOfSortedArray from "../977.SquaresOfSortedArray/index.js";
 import PalindromeLinkedList from "../234.PalindromeLinkedList/index.js";
 import RichestCustomerWealth from "../1672.RichestCustomerWealth/index.js";
 import TheWeakestRowsInMatrix from "../1337.TheWeakestRowsInMatrix/index.js";
+import LowestCommonAncestorBST from "../235.LowestCommonAncestorBST/index.js";
 import ValidateBinarySearchTree from "../98.ValidateBinarySearchTree/index.js";
 import FindNumbersWithEvenDigits from "../1295.FindNumbersWithEvenDigits/index.js";
 
@@ -86,6 +87,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: PalindromeLinkedList,
         link: "https://leetcode.com/problems/palindrome-linked-list/"
+    },
+    235: {
+        requiredArguments: 2,
+        solution: LowestCommonAncestorBST,
+        link: "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/"
     },
     278: {
         requiredArguments: 2,
