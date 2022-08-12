@@ -7,6 +7,7 @@ import RomanToInteger from "../13.RomanToInteger/index.js";
 import FindPivotIndex from "../724.FindPivotIndex/index.js";
 import DuplicateZeros from "../1089.DuplicateZeros/index.js";
 import FirstBadVersion from "../278.FirstBadVersion/index.js";
+import LinkedListCycle from "../141.LinkedListCycle/index.js";
 import RunningSumArray from "../1480.RunningSumArray/index.js";
 import MergeSortedArray from "../88.MergeSortedArray/index.js";
 import LinkedListCycle2 from "../142.LinkedListCycle2/index.js";
@@ -55,6 +56,11 @@ export const ProblemMap = {
         requiredArguments: 0,
         solution: ValidateBinarySearchTree,
         link: "https://leetcode.com/problems/validate-binary-search-tree/"
+    },
+    141: {
+        requiredArguments: 2,
+        solution: LinkedListCycle,
+        link: "https://leetcode.com/problems/linked-list-cycle/"
     },
     142: {
         requiredArguments: 2,
