@@ -9,6 +9,7 @@ import DuplicateZeros from "../1089.DuplicateZeros/index.js";
 import FirstBadVersion from "../278.FirstBadVersion/index.js";
 import RunningSumArray from "../1480.RunningSumArray/index.js";
 import MergeSortedArray from "../88.MergeSortedArray/index.js";
+import LinkedListCycle2 from "../142.LinkedListCycle2/index.js";
 import IsomorphicStrings from "../205.IsomorphicStrings/index.js";
 import ReverseLinkedList from "../206.ReverseLinkedList/index.js";
 import ContainsDuplicate from "../217.ContainsDuplicate/index.js";
@@ -54,6 +55,11 @@ export const ProblemMap = {
         requiredArguments: 0,
         solution: ValidateBinarySearchTree,
         link: "https://leetcode.com/problems/validate-binary-search-tree/"
+    },
+    142: {
+        requiredArguments: 2,
+        solution: LinkedListCycle2,
+        link: "https://leetcode.com/problems/linked-list-cycle-ii/"
     },
     205: {
         requiredArguments: 2,
