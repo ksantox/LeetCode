@@ -11,6 +11,7 @@ import LinkedListCycle from "../141.LinkedListCycle/index.js";
 import RunningSumArray from "../1480.RunningSumArray/index.js";
 import MergeSortedArray from "../88.MergeSortedArray/index.js";
 import LinkedListCycle2 from "../142.LinkedListCycle2/index.js";
+import LongestPalindrome from "../409.LongestPalindrome/index.js";
 import IsomorphicStrings from "../205.IsomorphicStrings/index.js";
 import ReverseLinkedList from "../206.ReverseLinkedList/index.js";
 import ContainsDuplicate from "../217.ContainsDuplicate/index.js";
@@ -113,6 +114,11 @@ export const ProblemMap = {
         requiredArguments: 2,
         solution: IsSubsequence,
         link: "https://leetcode.com/problems/is-subsequence/"
+    },
+    409: {
+        requiredArguments: 1,
+        solution: LongestPalindrome,
+        link: "https://leetcode.com/problems/longest-palindrome/"
     },
     412: {
         requiredArguments: 1,
