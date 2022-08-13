@@ -27,6 +27,7 @@ import RichestCustomerWealth from "../1672.RichestCustomerWealth/index.js";
 import TheWeakestRowsInMatrix from "../1337.TheWeakestRowsInMatrix/index.js";
 import LowestCommonAncestorBST from "../235.LowestCommonAncestorBST/index.js";
 import ValidateBinarySearchTree from "../98.ValidateBinarySearchTree/index.js";
+import CountOddNumbersFromRange from "../1523.CountOddNumbersFromRange/index.js";
 import NaryTreePreorderTraversal from "../589.NaryTreePreorderTraversal/index.js";
 import BestTimeToBuyAndSellStock from "../121.BestTimeToBuyAndSellStock/index.js";
 import FindNumbersWithEvenDigits from "../1295.FindNumbersWithEvenDigits/index.js";
@@ -188,6 +189,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: StepsToReduceToZero,
         link: "https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/"
+    },
+    1523: {
+        requiredArguments: 2,
+        solution: CountOddNumbersFromRange,
+        link: "https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/"
     },
     1672: {
         requiredArguments: 1,
