@@ -1,7 +1,7 @@
 import TreeNode from "../common/TreeNode.js";
 
 function setupArguments(decendantOneString, decendantTwoString) {
-    console.log("Terminal logs not implemented for BST, using default structre of 5 with left: 1, right: 4 with left: 3, right: 6");
+    console.log("Terminal logs not implemented for BST, using default structure.");
     const decendantOne = new TreeNode(parseInt(decendantOneString));
     const decendantTwo = new TreeNode(parseInt(decendantTwoString));
 

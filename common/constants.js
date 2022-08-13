@@ -29,6 +29,7 @@ import LowestCommonAncestorBST from "../235.LowestCommonAncestorBST/index.js";
 import ValidateBinarySearchTree from "../98.ValidateBinarySearchTree/index.js";
 import BestTimeToBuyAndSellStock from "../121.BestTimeToBuyAndSellStock/index.js";
 import FindNumbersWithEvenDigits from "../1295.FindNumbersWithEvenDigits/index.js";
+import BinaryTreeLevelOrderTraversal from "../102.BinaryTreeLevelOrderTraversal/index.js";
 
 export const ProblemMap = {
     1: {
@@ -60,6 +61,11 @@ export const ProblemMap = {
         requiredArguments: 0,
         solution: ValidateBinarySearchTree,
         link: "https://leetcode.com/problems/validate-binary-search-tree/"
+    },
+    102: {
+        requiredArguments: 0,
+        solution: BinaryTreeLevelOrderTraversal,
+        link: "https://leetcode.com/problems/binary-tree-level-order-traversal/"
     },
     121: {
         requiredArguments: 1,
