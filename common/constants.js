@@ -27,6 +27,7 @@ import RichestCustomerWealth from "../1672.RichestCustomerWealth/index.js";
 import TheWeakestRowsInMatrix from "../1337.TheWeakestRowsInMatrix/index.js";
 import LowestCommonAncestorBST from "../235.LowestCommonAncestorBST/index.js";
 import ValidateBinarySearchTree from "../98.ValidateBinarySearchTree/index.js";
+import NaryTreePreorderTraversal from "../589.NaryTreePreorderTraversal/index.js";
 import BestTimeToBuyAndSellStock from "../121.BestTimeToBuyAndSellStock/index.js";
 import FindNumbersWithEvenDigits from "../1295.FindNumbersWithEvenDigits/index.js";
 import BinaryTreeLevelOrderTraversal from "../102.BinaryTreeLevelOrderTraversal/index.js";
@@ -141,6 +142,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: MaxConsecutiveOnes,
         link: "https://leetcode.com/problems/max-consecutive-ones/"
+    },
+    589: {
+        requiredArguments: 0,
+        solution: NaryTreePreorderTraversal,
+        link: "https://leetcode.com/problems/n-ary-tree-preorder-traversal/"
     },
     704: {
         requiredArguments: 2,

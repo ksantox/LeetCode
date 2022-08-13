@@ -1,12 +1,10 @@
 class TreeNode {
     val = null;
-    left = null;
-    right = null;
+    children = [];
 
-    constructor(val, left = null, right = null) {
+    constructor(val, children = []) {
         this.val = val;
-        this.left = left;
-        this.right = right;
+        this.children = children;
     }
 }
 

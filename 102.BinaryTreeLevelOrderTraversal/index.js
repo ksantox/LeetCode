@@ -1,14 +1,14 @@
-import TreeNode from "../common/TreeNode.js";
+import BinaryTreeNode from "../common/BinaryTreeNode.js";
 
 function setupArguments() {
     console.log("Terminal logs not implemented for BST, using default structure of 3 with left: 9, right: 20 with left: 15, right: 7");
 
-    const nodeSeven = new TreeNode(7);
-    const nodeFifteen = new TreeNode(15);
-    const nodeTwenty = new TreeNode(20, nodeFifteen, nodeSeven);
+    const nodeSeven = new BinaryTreeNode(7);
+    const nodeFifteen = new BinaryTreeNode(15);
+    const nodeTwenty = new BinaryTreeNode(20, nodeFifteen, nodeSeven);
 
-    const nodeNine = new TreeNode(9);
-    const root = new TreeNode(3, nodeNine, nodeTwenty);
+    const nodeNine = new BinaryTreeNode(9);
+    const root = new BinaryTreeNode(3, nodeNine, nodeTwenty);
 
     return levelOrder(root);
 };

@@ -1,22 +1,22 @@
-import TreeNode from "../common/TreeNode.js";
+import BinaryTreeNode from "../common/BinaryTreeNode.js";
 
 function setupArguments(decendantOneString, decendantTwoString) {
     console.log("Terminal logs not implemented for BST, using default structure.");
-    const decendantOne = new TreeNode(parseInt(decendantOneString));
-    const decendantTwo = new TreeNode(parseInt(decendantTwoString));
+    const decendantOne = new BinaryTreeNode(parseInt(decendantOneString));
+    const decendantTwo = new BinaryTreeNode(parseInt(decendantTwoString));
 
-    const nodeFive = new TreeNode(5);
-    const nodeThree = new TreeNode(3);
-    const nodeFour = new TreeNode(4, nodeThree, nodeFive);
+    const nodeFive = new BinaryTreeNode(5);
+    const nodeThree = new BinaryTreeNode(3);
+    const nodeFour = new BinaryTreeNode(4, nodeThree, nodeFive);
 
-    const nodeZero = new TreeNode(0);
-    const nodeTwo = new TreeNode(2, nodeZero, nodeFour);
+    const nodeZero = new BinaryTreeNode(0);
+    const nodeTwo = new BinaryTreeNode(2, nodeZero, nodeFour);
 
-    const nodeNine = new TreeNode(9);
-    const nodeSeven = new TreeNode(7);
-    const nodeEight = new TreeNode(8, nodeSeven, nodeNine);
+    const nodeNine = new BinaryTreeNode(9);
+    const nodeSeven = new BinaryTreeNode(7);
+    const nodeEight = new BinaryTreeNode(8, nodeSeven, nodeNine);
 
-    const root = new TreeNode(6, nodeTwo, nodeEight);
+    const root = new BinaryTreeNode(6, nodeTwo, nodeEight);
 
     return lowestCommonAncestor(root, decendantOne, decendantTwo);
 };
