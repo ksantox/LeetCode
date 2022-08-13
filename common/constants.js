@@ -3,6 +3,7 @@ import FizzBuzz from "../412.FizzBuzz/index.js";
 import MoveZeroes from "../283.MoveZeroes/index.js";
 import RansomNote from "../383.RansomNote/index.js";
 import BinarySearch from "../704.BinarySearch/index.js";
+import ReverseString from "../344.ReverseString/index.js";
 import IsSubsequence from "../392.IsSubsequence/index.js";
 import RomanToInteger from "../13.RomanToInteger/index.js";
 import FindPivotIndex from "../724.FindPivotIndex/index.js";
@@ -119,6 +120,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: MoveZeroes,
         link: "https://leetcode.com/problems/move-zeroes/"
+    },
+    344: {
+        requiredArguments: 1,
+        solution: ReverseString,
+        link: "https://leetcode.com/problems/reverse-string/"
     },
     383: {
         requiredArguments: 2,

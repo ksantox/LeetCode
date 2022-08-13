@@ -34,6 +34,10 @@ function setupNumberArray(string) {
     return parsedArray;
 }
 
+function setupStringArray(string) {
+    return string.replace(/[\[\]]/g, "").split(/,\s{0,}/g);
+}
+
 function setupNestedArray(string) {
     let match = null;
     const result = [];
@@ -61,6 +65,7 @@ function setupNestedArray(string) {
 
 export {
     setupLinkedList,
+    setupStringArray,
     setupNestedArray,
     setupNumberArray,
 }
