@@ -32,6 +32,7 @@ import NaryTreePreorderTraversal from "../589.NaryTreePreorderTraversal/index.js
 import BestTimeToBuyAndSellStock from "../121.BestTimeToBuyAndSellStock/index.js";
 import FindNumbersWithEvenDigits from "../1295.FindNumbersWithEvenDigits/index.js";
 import BinaryTreeLevelOrderTraversal from "../102.BinaryTreeLevelOrderTraversal/index.js";
+import AverageSalaryExcludingMinAndMax from "../1491.AverageSalaryExcludingMinAndMax/index.js";
 
 export const ProblemMap = {
     1: {
@@ -189,6 +190,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: StepsToReduceToZero,
         link: "https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/"
+    },
+    1491: {
+        requiredArguments: 1,
+        solution: AverageSalaryExcludingMinAndMax,
+        link: "https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/"
     },
     1523: {
         requiredArguments: 2,
