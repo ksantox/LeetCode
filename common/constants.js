@@ -26,6 +26,7 @@ import SquaresOfSortedArray from "../977.SquaresOfSortedArray/index.js";
 import PalindromeLinkedList from "../234.PalindromeLinkedList/index.js";
 import RichestCustomerWealth from "../1672.RichestCustomerWealth/index.js";
 import TheWeakestRowsInMatrix from "../1337.TheWeakestRowsInMatrix/index.js";
+import ReverseWordsInStringIII from "../557.ReverseWordsInStringIII/index.js";
 import LowestCommonAncestorBST from "../235.LowestCommonAncestorBST/index.js";
 import ValidateBinarySearchTree from "../98.ValidateBinarySearchTree/index.js";
 import CountOddNumbersFromRange from "../1523.CountOddNumbersFromRange/index.js";
@@ -150,6 +151,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: MaxConsecutiveOnes,
         link: "https://leetcode.com/problems/max-consecutive-ones/"
+    },
+    557: {
+        requiredArguments: 0,
+        solution: ReverseWordsInStringIII,
+        link: "https://leetcode.com/problems/reverse-words-in-a-string-iii/"
     },
     589: {
         requiredArguments: 0,
