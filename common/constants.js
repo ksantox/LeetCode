@@ -31,6 +31,7 @@ import ReverseWordsInStringIII from "../557.ReverseWordsInStringIII/index.js";
 import LowestCommonAncestorBST from "../235.LowestCommonAncestorBST/index.js";
 import ValidateBinarySearchTree from "../98.ValidateBinarySearchTree/index.js";
 import CountOddNumbersFromRange from "../1523.CountOddNumbersFromRange/index.js";
+import IntersectionOfTwoArraysII from "../350.IntersectionOfTwoArraysII/index.js";
 import NaryTreePreorderTraversal from "../589.NaryTreePreorderTraversal/index.js";
 import BestTimeToBuyAndSellStock from "../121.BestTimeToBuyAndSellStock/index.js";
 import FindNumbersWithEvenDigits from "../1295.FindNumbersWithEvenDigits/index.js";
@@ -133,6 +134,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: ReverseString,
         link: "https://leetcode.com/problems/reverse-string/"
+    },
+    350: {
+        requiredArguments: 2,
+        solution: IntersectionOfTwoArraysII,
+        link: "https://leetcode.com/problems/intersection-of-two-arrays-ii/"
     },
     383: {
         requiredArguments: 2,

@@ -8,26 +8,25 @@ function setupArguments(arrayString, target) {
 }
 
 function search(numbers, target) {
-    let left = 0;
-    let index = 0;
-    let right = numbers.length - 1;
+    let leftPointer = 0;
+    let rightPointer = numbers.length - 1;
 
-    while(left <= right) {
-        index = Math.floor((left + right) / 2);
+    while(leftPointer <= rightPointer) {
+        let index = Math.floor((leftPointer + rightPointer) / 2);
 
         if(numbers[index] === target) {
             return index;
         }
 
         if(target < numbers[index]) {
-            right = index - 1;
+            rightPointer = index - 1;
             continue;
         }
         
-        left = index + 1;
+        leftPointer = index + 1;
     }
 
-    return -1
+    return -1;
 }
 
 export default setupArguments;
