@@ -16,6 +16,4 @@ function canConstruct(ransomNote, magazine) {
     return true;
 }
 
-canConstruct("aa", "aab");
-
 export default canConstruct;
