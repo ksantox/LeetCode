@@ -34,6 +34,7 @@ import NaryTreePreorderTraversal from "../589.NaryTreePreorderTraversal/index.js
 import BestTimeToBuyAndSellStock from "../121.BestTimeToBuyAndSellStock/index.js";
 import FindNumbersWithEvenDigits from "../1295.FindNumbersWithEvenDigits/index.js";
 import BinaryTreeLevelOrderTraversal from "../102.BinaryTreeLevelOrderTraversal/index.js";
+import SubtractProductAndSumOfDigits from "../1281.SubtractProductAndSumOfDigits/index.js";
 import AverageSalaryExcludingMinAndMax from "../1491.AverageSalaryExcludingMinAndMax/index.js";
 
 export const ProblemMap = {
@@ -186,6 +187,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: DuplicateZeros,
         link: "https://leetcode.com/problems/duplicate-zeros/"
+    },
+    1281: {
+        requiredArguments: 1,
+        solution: SubtractProductAndSumOfDigits,
+        link: "https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/"
     },
     1295: {
         requiredArguments: 1,
