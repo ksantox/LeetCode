@@ -15,6 +15,7 @@ import FirstBadVersion from "../278.FirstBadVersion/index.js";
 import LinkedListCycle from "../141.LinkedListCycle/index.js";
 import RunningSumArray from "../1480.RunningSumArray/index.js";
 import MergeSortedArray from "../88.MergeSortedArray/index.js";
+import ReshapeTheMatrix from "../566.ReshapeTheMatrix/index.js";
 import LinkedListCycle2 from "../142.LinkedListCycleII/index.js";
 import LongestPalindrome from "../409.LongestPalindrome/index.js";
 import IsomorphicStrings from "../205.IsomorphicStrings/index.js";
@@ -193,6 +194,11 @@ export const ProblemMap = {
         requiredArguments: 0,
         solution: ReverseWordsInStringIII,
         link: "https://leetcode.com/problems/reverse-words-in-a-string-iii/"
+    },
+    566: {
+        requiredArguments: 3,
+        solution: ReshapeTheMatrix,
+        link: "https://leetcode.com/problems/reshape-the-matrix/"
     },
     589: {
         requiredArguments: 0,
