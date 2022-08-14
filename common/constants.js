@@ -4,6 +4,7 @@ import MoveZeroes from "../283.MoveZeroes/index.js";
 import RansomNote from "../383.RansomNote/index.js";
 import NumberOfBits from "../191.NumberOfBits/index.js";
 import BinarySearch from "../704.BinarySearch/index.js";
+import ValidAnagram from "../242.ValidAnagram/index.js";
 import ReverseString from "../344.ReverseString/index.js";
 import IsSubsequence from "../392.IsSubsequence/index.js";
 import RomanToInteger from "../13.RomanToInteger/index.js";
@@ -120,6 +121,11 @@ export const ProblemMap = {
         requiredArguments: 2,
         solution: LowestCommonAncestorBST,
         link: "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/"
+    },
+    242: {
+        requiredArguments: 2,
+        solution: ValidAnagram,
+        link: "https://leetcode.com/problems/valid-anagram/"
     },
     278: {
         requiredArguments: 2,
