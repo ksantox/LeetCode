@@ -10,6 +10,7 @@ import IsSubsequence from "../392.IsSubsequence/index.js";
 import RomanToInteger from "../13.RomanToInteger/index.js";
 import FindPivotIndex from "../724.FindPivotIndex/index.js";
 import DuplicateZeros from "../1089.DuplicateZeros/index.js";
+import PascalsTriangle from "../118.PascalsTriangle/index.js";
 import FirstBadVersion from "../278.FirstBadVersion/index.js";
 import LinkedListCycle from "../141.LinkedListCycle/index.js";
 import RunningSumArray from "../1480.RunningSumArray/index.js";
@@ -77,6 +78,11 @@ export const ProblemMap = {
         requiredArguments: 0,
         solution: BinaryTreeLevelOrderTraversal,
         link: "https://leetcode.com/problems/binary-tree-level-order-traversal/"
+    },
+    118: {
+        requiredArguments: 1,
+        solution: PascalsTriangle,
+        link: "https://leetcode.com/problems/pascals-triangle/"
     },
     121: {
         requiredArguments: 1,
