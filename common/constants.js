@@ -2,6 +2,7 @@ import TwoSum from "../1.TwoSum/index.js";
 import FizzBuzz from "../412.FizzBuzz/index.js";
 import MoveZeroes from "../283.MoveZeroes/index.js";
 import RansomNote from "../383.RansomNote/index.js";
+import NumberOfBits from "../191.NumberOfBits/index.js";
 import BinarySearch from "../704.BinarySearch/index.js";
 import ReverseString from "../344.ReverseString/index.js";
 import IsSubsequence from "../392.IsSubsequence/index.js";
@@ -87,6 +88,11 @@ export const ProblemMap = {
         requiredArguments: 2,
         solution: LinkedListCycle2,
         link: "https://leetcode.com/problems/linked-list-cycle-ii/"
+    },
+    191: {
+        requiredArguments: 1,
+        solution: NumberOfBits,
+        link: "https://leetcode.com/problems/number-of-1-bits/"
     },
     205: {
         requiredArguments: 2,
