@@ -17,8 +17,27 @@ const AllowedSubtractableMapping = {
     "M": "C",
 }
 
-
 function romanToInt(romanNumber) {
+    let result = 0;
+    
+    for(let i = 0; i < romanNumber.length; i++) {
+        if(i === romanNumber.length - 1) {
+            result += RomanMapping[romanNumber[i]];
+            break;
+        }
+        
+        if(RomanMapping[romanNumber[i]] >= RomanMapping[romanNumber[i + 1]]) {
+            result += RomanMapping[romanNumber[i]];
+            continue;
+        }
+        
+        result -= RomanMapping[romanNumber[i]];
+    }
+    
+    return result;
+}
+
+function romanToIntTwoMaps(romanNumber) {
     const numbers = [RomanMapping[romanNumber[0]]];
     const allowedSubtractable = Object.keys(AllowedSubtractableMapping);
 
