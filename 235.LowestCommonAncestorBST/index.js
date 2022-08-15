@@ -1,9 +1,9 @@
 import BinaryTreeNode from "../common/BinaryTreeNode.js";
 
-function setupArguments(decendantOneString, decendantTwoString) {
+function setupArguments(descendantOneString, descendantTwoString) {
     console.log("Terminal logs not implemented for BST, using default structure.");
-    const decendantOne = new BinaryTreeNode(parseInt(decendantOneString));
-    const decendantTwo = new BinaryTreeNode(parseInt(decendantTwoString));
+    const descendantOne = new BinaryTreeNode(parseInt(descendantOneString));
+    const descendantTwo = new BinaryTreeNode(parseInt(descendantTwoString));
 
     const nodeFive = new BinaryTreeNode(5);
     const nodeThree = new BinaryTreeNode(3);
@@ -18,19 +18,19 @@ function setupArguments(decendantOneString, decendantTwoString) {
 
     const root = new BinaryTreeNode(6, nodeTwo, nodeEight);
 
-    return lowestCommonAncestor(root, decendantOne, decendantTwo);
+    return lowestCommonAncestor(root, descendantOne, descendantTwo);
 };
 
-function lowestCommonAncestor(root, decendantOne, decendantTwo) {
+function lowestCommonAncestor(root, descendantOne, descendantTwo) {
     let currNode = root;
 
     while(currNode) {
-        if(decendantOne.val > currNode.val && decendantTwo.val > currNode.val) {
+        if(descendantOne.val > currNode.val && descendantTwo.val > currNode.val) {
             currNode = currNode.right;
             continue;
         }
 
-        if(decendantOne.val < currNode.val && decendantTwo.val < currNode.val) {
+        if(descendantOne.val < currNode.val && descendantTwo.val < currNode.val) {
             currNode = currNode.left;
             continue;
         }

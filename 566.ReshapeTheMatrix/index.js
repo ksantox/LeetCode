@@ -40,6 +40,4 @@ function matrixReshape(matrix, rows, columns) {
     return newMatrix;
 }
 
-// setupArguments("[[1,2,3,4],[5,6,7,8],[9,10,11,12]]", 4, 3);
-
 export default setupArguments;

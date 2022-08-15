@@ -34,6 +34,7 @@ import TheWeakestRowsInMatrix from "../1337.TheWeakestRowsInMatrix/index.js";
 import ReverseWordsInStringIII from "../557.ReverseWordsInStringIII/index.js";
 import LowestCommonAncestorBST from "../235.LowestCommonAncestorBST/index.js";
 import ValidateBinarySearchTree from "../98.ValidateBinarySearchTree/index.js";
+import LargestPerimeterTriangle from "../976.LargestPerimeterTriangle/index.js";
 import RemoveLinkedListElements from "../203.RemoveLinkedListElements/index.js";
 import CountOddNumbersFromRange from "../1523.CountOddNumbersFromRange/index.js";
 import IntersectionOfTwoArraysII from "../350.IntersectionOfTwoArraysII/index.js";
@@ -219,6 +220,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: MiddleOfLinkedList,
         link: "https://leetcode.com/problems/middle-of-the-linked-list/"
+    },
+    976: {
+        requiredArguments: 1,
+        solution: LargestPerimeterTriangle,
+        link :"https://leetcode.com/problems/largest-perimeter-triangle/"
     },
     977: {
         requiredArguments: 1,
