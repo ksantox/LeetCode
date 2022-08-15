@@ -16,6 +16,7 @@ import LinkedListCycle from "../141.LinkedListCycle/index.js";
 import RunningSumArray from "../1480.RunningSumArray/index.js";
 import MergeSortedArray from "../88.MergeSortedArray/index.js";
 import ReshapeTheMatrix from "../566.ReshapeTheMatrix/index.js";
+import FindNearestPoint from "../1779.FindNearestPoint/index.js";
 import LinkedListCycle2 from "../142.LinkedListCycleII/index.js";
 import LongestPalindrome from "../409.LongestPalindrome/index.js";
 import IsomorphicStrings from "../205.IsomorphicStrings/index.js";
@@ -276,5 +277,10 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: RunningSumArray,
         link: "https://leetcode.com/problems/running-sum-of-1d-array/"
+    },
+    1779: {
+        requiredArguments: 3,
+        solution: FindNearestPoint,
+        link: "https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/"
     }
 }
