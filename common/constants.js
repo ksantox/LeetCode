@@ -47,6 +47,7 @@ import FindNumbersWithEvenDigits from "../1295.FindNumbersWithEvenDigits/index.j
 import BinaryTreeLevelOrderTraversal from "../102.BinaryTreeLevelOrderTraversal/index.js";
 import SubtractProductAndSumOfDigits from "../1281.SubtractProductAndSumOfDigits/index.js";
 import AverageSalaryExcludingMinAndMax from "../1491.AverageSalaryExcludingMinAndMax/index.js";
+import ArithmeticProgressionFromSequence from "../1502.ArithmeticProgressionFromSequence/index.js";
 
 export const ProblemMap = {
     1: {
@@ -269,6 +270,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: AverageSalaryExcludingMinAndMax,
         link: "https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/"
+    },
+    1502: {
+        requiredArguments: 1,
+        solution: ArithmeticProgressionFromSequence,
+        link: "https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/"
     },
     1523: {
         requiredArguments: 2,
