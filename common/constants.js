@@ -29,6 +29,7 @@ import MergeTwoSortedLists from "../21.MergeTwoSortedLists/index.js";
 import NextGreaterElementI from "../496.NextGreaterElementI/index.js";
 import StepsToReduceToZero from "../1342.StepsToReduceToZero/index.js";
 import SearchInsertPosition from "../35.SearchInsertPosition/index.js";
+import CheckIfStraightLine from "../1232.CheckIfStraightLine/index.js";
 import FirstUniqueCharacter from "../387.FirstUniqueCharacter/index.js";
 import SquaresOfSortedArray from "../977.SquaresOfSortedArray/index.js";
 import PalindromeLinkedList from "../234.PalindromeLinkedList/index.js";
@@ -257,6 +258,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: DuplicateZeros,
         link: "https://leetcode.com/problems/duplicate-zeros/"
+    },
+    1232: {
+        requiredArguments: 1,
+        solution: CheckIfStraightLine,
+        link: "https://leetcode.com/problems/check-if-it-is-a-straight-line/"
     },
     1281: {
         requiredArguments: 1,
