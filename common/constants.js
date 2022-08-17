@@ -31,6 +31,7 @@ import FirstUniqueCharacter from "../387.FirstUniqueCharacter/index.js";
 import SquaresOfSortedArray from "../977.SquaresOfSortedArray/index.js";
 import PalindromeLinkedList from "../234.PalindromeLinkedList/index.js";
 import UniqueMorseCodeWords from "../804.UniqueMorseCodeWords/index.js";
+import SignOfProductOfArray from "../1822.SignOfProductOfArray/index.js";
 import RichestCustomerWealth from "../1672.RichestCustomerWealth/index.js";
 import TheWeakestRowsInMatrix from "../1337.TheWeakestRowsInMatrix/index.js";
 import ReverseWordsInStringIII from "../557.ReverseWordsInStringIII/index.js";
@@ -288,5 +289,10 @@ export const ProblemMap = {
         requiredArguments: 3,
         solution: FindNearestPoint,
         link: "https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/"
+    },
+    1822: {
+        requiredArguments: 1,
+        solution: SignOfProductOfArray,
+        link: "https://leetcode.com/problems/sign-of-the-product-of-an-array/"
     }
 }
