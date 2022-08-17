@@ -2,6 +2,7 @@ import TwoSum from "../1.TwoSum/index.js";
 import FizzBuzz from "../412.FizzBuzz/index.js";
 import MoveZeroes from "../283.MoveZeroes/index.js";
 import RansomNote from "../383.RansomNote/index.js";
+import HappyNumber from "../202.HappyNumber/index.js";
 import NumberOfBits from "../191.NumberOfBits/index.js";
 import BinarySearch from "../704.BinarySearch/index.js";
 import ValidAnagram from "../242.ValidAnagram/index.js";
@@ -109,6 +110,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: NumberOfBits,
         link: "https://leetcode.com/problems/number-of-1-bits/"
+    },
+    202: {
+        requiredArguments: 1,
+        solution: HappyNumber,
+        link: "https://leetcode.com/problems/happy-number/solution/"
     },
     203: {
         requiredArguments: 2,
