@@ -26,6 +26,7 @@ import ContainsDuplicate from "../217.ContainsDuplicate/index.js";
 import MaxConsecutiveOnes from "../485.MaxConsecutiveOnes/index.js";
 import MiddleOfLinkedList from "../876.MiddleOfLinkedList/index.js";
 import MergeTwoSortedLists from "../21.MergeTwoSortedLists/index.js";
+import NextGreaterElementI from "../496.NextGreaterElementI/index.js";
 import StepsToReduceToZero from "../1342.StepsToReduceToZero/index.js";
 import SearchInsertPosition from "../35.SearchInsertPosition/index.js";
 import FirstUniqueCharacter from "../387.FirstUniqueCharacter/index.js";
@@ -200,6 +201,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: MaxConsecutiveOnes,
         link: "https://leetcode.com/problems/max-consecutive-ones/"
+    },
+    496: {
+        requiredArguments: 2,
+        solution: NextGreaterElementI,
+        link: "https://leetcode.com/problems/next-greater-element-i/"
     },
     557: {
         requiredArguments: 0,
