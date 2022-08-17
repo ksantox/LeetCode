@@ -8,6 +8,7 @@ import BinarySearch from "../704.BinarySearch/index.js";
 import ValidAnagram from "../242.ValidAnagram/index.js";
 import ReverseString from "../344.ReverseString/index.js";
 import IsSubsequence from "../392.IsSubsequence/index.js";
+import ClimbingStairs from "../70.ClimbingStairs/index.js";
 import RomanToInteger from "../13.RomanToInteger/index.js";
 import FindPivotIndex from "../724.FindPivotIndex/index.js";
 import DuplicateZeros from "../1089.DuplicateZeros/index.js";
@@ -74,6 +75,11 @@ export const ProblemMap = {
         requiredArguments: 2,
         solution: SearchInsertPosition,
         link: "https://leetcode.com/problems/search-insert-position/"
+    },
+    70: {
+        requiredArguments: 1,
+        solution: ClimbingStairs,
+        link: "https://leetcode.com/problems/climbing-stairs/"
     },
     88: {
         requiredArguments: 4,
