@@ -14,6 +14,7 @@ import DuplicateZeros from "../1089.DuplicateZeros/index.js";
 import PascalsTriangle from "../118.PascalsTriangle/index.js";
 import FirstBadVersion from "../278.FirstBadVersion/index.js";
 import LinkedListCycle from "../141.LinkedListCycle/index.js";
+import FibonacciNumber from "../509.FibonacciNumber/index.js";
 import RunningSumArray from "../1480.RunningSumArray/index.js";
 import MergeSortedArray from "../88.MergeSortedArray/index.js";
 import ReshapeTheMatrix from "../566.ReshapeTheMatrix/index.js";
@@ -208,6 +209,11 @@ export const ProblemMap = {
         requiredArguments: 2,
         solution: NextGreaterElementI,
         link: "https://leetcode.com/problems/next-greater-element-i/"
+    },
+    509: {
+        requiredArguments: 1,
+        solution: FibonacciNumber,
+        link: "https://leetcode.com/problems/fibonacci-number/"
     },
     557: {
         requiredArguments: 0,
