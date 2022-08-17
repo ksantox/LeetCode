@@ -49,6 +49,7 @@ import FindNumbersWithEvenDigits from "../1295.FindNumbersWithEvenDigits/index.j
 import BinaryTreeLevelOrderTraversal from "../102.BinaryTreeLevelOrderTraversal/index.js";
 import SubtractProductAndSumOfDigits from "../1281.SubtractProductAndSumOfDigits/index.js";
 import AverageSalaryExcludingMinAndMax from "../1491.AverageSalaryExcludingMinAndMax/index.js";
+import CheckIfStringsAreEqualAfterSwap from "../1790.CheckIfStringsAreEqualAfterSwap/index.js";
 import ArithmeticProgressionFromSequence from "../1502.ArithmeticProgressionFromSequence/index.js";
 
 export const ProblemMap = {
@@ -307,6 +308,11 @@ export const ProblemMap = {
         requiredArguments: 3,
         solution: FindNearestPoint,
         link: "https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/"
+    },
+    1790: {
+        requiredArguments: 2,
+        solution: CheckIfStringsAreEqualAfterSwap,
+        link: "https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/"
     },
     1822: {
         requiredArguments: 1,
