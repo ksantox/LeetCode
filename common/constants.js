@@ -30,6 +30,7 @@ import SearchInsertPosition from "../35.SearchInsertPosition/index.js";
 import FirstUniqueCharacter from "../387.FirstUniqueCharacter/index.js";
 import SquaresOfSortedArray from "../977.SquaresOfSortedArray/index.js";
 import PalindromeLinkedList from "../234.PalindromeLinkedList/index.js";
+import UniqueMorseCodeWords from "../804.UniqueMorseCodeWords/index.js";
 import RichestCustomerWealth from "../1672.RichestCustomerWealth/index.js";
 import TheWeakestRowsInMatrix from "../1337.TheWeakestRowsInMatrix/index.js";
 import ReverseWordsInStringIII from "../557.ReverseWordsInStringIII/index.js";
@@ -216,6 +217,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: FindPivotIndex,
         link: "https://leetcode.com/problems/find-pivot-index/"
+    },
+    804: {
+        requiredArguments: 1,
+        solution: UniqueMorseCodeWords,
+        link: "https://leetcode.com/problems/unique-morse-code-words/"
     },
     876: {
         requiredArguments: 1,
