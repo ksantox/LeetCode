@@ -9,6 +9,7 @@ const morseCode = { a: ".-", b: "-...", c: "-.-.", d: "-..", e: ".", f: "..-.", 
 
 function uniqueMorseRepresentations(words) {
     const map = {};
+    const set = new Set();
 
     for(let i = 0; i < words.length; i++) {
         let encryptedWord = "";
@@ -19,22 +20,16 @@ function uniqueMorseRepresentations(words) {
             encryptedWord += morseCode[character];
         }
 
+        set.add(encryptedWord);
+
         if(!map[encryptedWord]) {
             map[encryptedWord] = 0;
         }
 
         map[encryptedWord]++;
     }
-    
-    let uniqueWords = 0;
 
-    for (const pattern in map) {
-        if(map[pattern]) {
-            uniqueWords++;
-        }
-    }
-
-    return uniqueWords;
+    return set.size;
 }
 
 export default setupArguments;
