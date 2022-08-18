@@ -44,6 +44,7 @@ import LowestCommonAncestorBST from "../235.LowestCommonAncestorBST/index.js";
 import ValidateBinarySearchTree from "../98.ValidateBinarySearchTree/index.js";
 import LargestPerimeterTriangle from "../976.LargestPerimeterTriangle/index.js";
 import RemoveLinkedListElements from "../203.RemoveLinkedListElements/index.js";
+import SumOffOddLengthSubarrays from "../1588.SumOffOddLengthSubarrays/index.js";
 import CountOddNumbersFromRange from "../1523.CountOddNumbersFromRange/index.js";
 import IntersectionOfTwoArraysII from "../350.IntersectionOfTwoArraysII/index.js";
 import NaryTreePreorderTraversal from "../589.NaryTreePreorderTraversal/index.js";
@@ -311,6 +312,11 @@ export const ProblemMap = {
         requiredArguments: 2,
         solution: CountOddNumbersFromRange,
         link: "https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/"
+    },
+    1588: {
+        requiredArguments: 1,
+        solution: SumOffOddLengthSubarrays,
+        link: "https://leetcode.com/problems/sum-of-all-odd-length-subarrays/"
     },
     1672: {
         requiredArguments: 1,
