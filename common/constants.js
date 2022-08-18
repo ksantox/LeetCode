@@ -52,6 +52,7 @@ import IntersectionOfTwoArraysII from "../350.IntersectionOfTwoArraysII/index.js
 import NaryTreePreorderTraversal from "../589.NaryTreePreorderTraversal/index.js";
 import BestTimeToBuyAndSellStock from "../121.BestTimeToBuyAndSellStock/index.js";
 import FindNumbersWithEvenDigits from "../1295.FindNumbersWithEvenDigits/index.js";
+import BinaryTreePreorderTraversal from "../144.BinaryTreePreorderTraversal/index.js";
 import BinaryTreeLevelOrderTraversal from "../102.BinaryTreeLevelOrderTraversal/index.js";
 import SubtractProductAndSumOfDigits from "../1281.SubtractProductAndSumOfDigits/index.js";
 import RemoveDuplicatesFromSortedList from "../83.RemoveDuplicatesFromSortedList/index.js";
@@ -129,6 +130,11 @@ export const ProblemMap = {
         requiredArguments: 2,
         solution: LinkedListCycle2,
         link: "https://leetcode.com/problems/linked-list-cycle-ii/"
+    },
+    144: {
+        requiredArguments: 0,
+        solution: BinaryTreePreorderTraversal,
+        link: "https://leetcode.com/problems/binary-tree-preorder-traversal/"
     },
     191: {
         requiredArguments: 1,
