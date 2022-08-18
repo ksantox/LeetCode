@@ -17,6 +17,7 @@ import FirstBadVersion from "../278.FirstBadVersion/index.js";
 import LinkedListCycle from "../141.LinkedListCycle/index.js";
 import FibonacciNumber from "../509.FibonacciNumber/index.js";
 import RunningSumArray from "../1480.RunningSumArray/index.js";
+import ValidParentheses from "../20.ValidParentheses/index.js";
 import MergeSortedArray from "../88.MergeSortedArray/index.js";
 import ReshapeTheMatrix from "../566.ReshapeTheMatrix/index.js";
 import FindNearestPoint from "../1779.FindNearestPoint/index.js";
@@ -67,6 +68,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: RomanToInteger,
         link: "https://leetcode.com/problems/roman-to-integer/"
+    },
+    20: {
+        requiredArguments: 1,
+        solution: ValidParentheses,
+        link: "https://leetcode.com/problems/valid-parentheses/"
     },
     21: {
         requiredArguments: 2,
