@@ -8,7 +8,6 @@ function setupArguments(arrayString) {
 const morseCode = { a: ".-", b: "-...", c: "-.-.", d: "-..", e: ".", f: "..-.", g: "--.", h: "....", i: "..", j: ".---", k: "-.-", l: ".-..", m: "--", n: "-.", o: "---", p: ".--.", q: "--.-", r: ".-.", s: "...", t: "-", u: "..-", v: "...-", w: ".--", x: "-..-", y: "-.--", z: "--.." }
 
 function uniqueMorseRepresentations(words) {
-    const map = {};
     const set = new Set();
 
     for(let i = 0; i < words.length; i++) {
@@ -21,12 +20,6 @@ function uniqueMorseRepresentations(words) {
         }
 
         set.add(encryptedWord);
-
-        if(!map[encryptedWord]) {
-            map[encryptedWord] = 0;
-        }
-
-        map[encryptedWord]++;
     }
 
     return set.size;
