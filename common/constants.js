@@ -52,6 +52,7 @@ import IntersectionOfTwoArraysII from "../350.IntersectionOfTwoArraysII/index.js
 import NaryTreePreorderTraversal from "../589.NaryTreePreorderTraversal/index.js";
 import BestTimeToBuyAndSellStock from "../121.BestTimeToBuyAndSellStock/index.js";
 import FindNumbersWithEvenDigits from "../1295.FindNumbersWithEvenDigits/index.js";
+import BinaryTreeInorderTraversal from "../94.BinaryTreeInorderTraversal/index.js";
 import BinaryTreePreorderTraversal from "../144.BinaryTreePreorderTraversal/index.js";
 import BinaryTreeLevelOrderTraversal from "../102.BinaryTreeLevelOrderTraversal/index.js";
 import SubtractProductAndSumOfDigits from "../1281.SubtractProductAndSumOfDigits/index.js";
@@ -100,6 +101,11 @@ export const ProblemMap = {
         requiredArguments: 4,
         solution: MergeSortedArray,
         link: "https://leetcode.com/problems/merge-sorted-array/"
+    },
+    94: {
+        requiredArguments: 0,
+        solution: BinaryTreeInorderTraversal,
+        link: "https://leetcode.com/problems/binary-tree-inorder-traversal/"
     },
     98: {
         requiredArguments: 0,
