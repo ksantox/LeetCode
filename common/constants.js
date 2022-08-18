@@ -54,6 +54,7 @@ import BestTimeToBuyAndSellStock from "../121.BestTimeToBuyAndSellStock/index.js
 import FindNumbersWithEvenDigits from "../1295.FindNumbersWithEvenDigits/index.js";
 import BinaryTreeInorderTraversal from "../94.BinaryTreeInorderTraversal/index.js";
 import BinaryTreePreorderTraversal from "../144.BinaryTreePreorderTraversal/index.js";
+import BinaryTreePostOrderTraversal from "../145.BinaryTreePostOrderTraversal/index.js";
 import BinaryTreeLevelOrderTraversal from "../102.BinaryTreeLevelOrderTraversal/index.js";
 import SubtractProductAndSumOfDigits from "../1281.SubtractProductAndSumOfDigits/index.js";
 import RemoveDuplicatesFromSortedList from "../83.RemoveDuplicatesFromSortedList/index.js";
@@ -141,6 +142,11 @@ export const ProblemMap = {
         requiredArguments: 0,
         solution: BinaryTreePreorderTraversal,
         link: "https://leetcode.com/problems/binary-tree-preorder-traversal/"
+    },
+    145: {
+        requiredArguments: 0,
+        solution: BinaryTreePostOrderTraversal,
+        link: "https://leetcode.com/problems/binary-tree-postorder-traversal/"
     },
     191: {
         requiredArguments: 1,
