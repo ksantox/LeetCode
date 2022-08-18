@@ -47,6 +47,7 @@ import LargestPerimeterTriangle from "../976.LargestPerimeterTriangle/index.js";
 import RemoveLinkedListElements from "../203.RemoveLinkedListElements/index.js";
 import SumOffOddLengthSubarrays from "../1588.SumOffOddLengthSubarrays/index.js";
 import CountOddNumbersFromRange from "../1523.CountOddNumbersFromRange/index.js";
+import ImplementQueueUsingStacks from "../232.ImplementQueueUsingStacks/index.js";
 import IntersectionOfTwoArraysII from "../350.IntersectionOfTwoArraysII/index.js";
 import NaryTreePreorderTraversal from "../589.NaryTreePreorderTraversal/index.js";
 import BestTimeToBuyAndSellStock from "../121.BestTimeToBuyAndSellStock/index.js";
@@ -158,6 +159,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: ContainsDuplicate,
         link: "https://leetcode.com/problems/contains-duplicate/"
+    },
+    232: {
+        requiredArguments: 2,
+        solution: ImplementQueueUsingStacks,
+        link: ""
     },
     234: {
         requiredArguments: 1,
