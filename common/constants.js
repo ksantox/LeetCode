@@ -52,6 +52,7 @@ import BestTimeToBuyAndSellStock from "../121.BestTimeToBuyAndSellStock/index.js
 import FindNumbersWithEvenDigits from "../1295.FindNumbersWithEvenDigits/index.js";
 import BinaryTreeLevelOrderTraversal from "../102.BinaryTreeLevelOrderTraversal/index.js";
 import SubtractProductAndSumOfDigits from "../1281.SubtractProductAndSumOfDigits/index.js";
+import RemoveDuplicatesFromSortedList from "../83.RemoveDuplicatesFromSortedList/index.js";
 import AverageSalaryExcludingMinAndMax from "../1491.AverageSalaryExcludingMinAndMax/index.js";
 import CheckIfStringsAreEqualAfterSwap from "../1790.CheckIfStringsAreEqualAfterSwap/index.js";
 import ArithmeticProgressionFromSequence from "../1502.ArithmeticProgressionFromSequence/index.js";
@@ -81,6 +82,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: ClimbingStairs,
         link: "https://leetcode.com/problems/climbing-stairs/"
+    },
+    83: {
+        requiredArguments: 1,
+        solution: RemoveDuplicatesFromSortedList,
+        link: "https://leetcode.com/problems/remove-duplicates-from-sorted-list/"
     },
     88: {
         requiredArguments: 4,
