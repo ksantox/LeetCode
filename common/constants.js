@@ -62,6 +62,7 @@ import RemoveDuplicatesFromSortedList from "../83.RemoveDuplicatesFromSortedList
 import AverageSalaryExcludingMinAndMax from "../1491.AverageSalaryExcludingMinAndMax/index.js";
 import CheckIfStringsAreEqualAfterSwap from "../1790.CheckIfStringsAreEqualAfterSwap/index.js";
 import ArithmeticProgressionFromSequence from "../1502.ArithmeticProgressionFromSequence/index.js";
+import SplitArrayIntoConsecutiveSubsequences from "../659.SplitArrayIntoConsecutiveSubsequences/index.js";
 
 export const ProblemMap = {
     1: {
@@ -273,6 +274,11 @@ export const ProblemMap = {
         requiredArguments: 0,
         solution: NaryTreePreorderTraversal,
         link: "https://leetcode.com/problems/n-ary-tree-preorder-traversal/"
+    },
+    659: {
+        requiredArguments: 1,
+        solution: SplitArrayIntoConsecutiveSubsequences,
+        link: "https://leetcode.com/problems/split-array-into-consecutive-subsequences/"
     },
     704: {
         requiredArguments: 2,
