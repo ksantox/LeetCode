@@ -2,6 +2,7 @@ import TwoSum from "../1.TwoSum/index.js";
 import FizzBuzz from "../412.FizzBuzz/index.js";
 import MoveZeroes from "../283.MoveZeroes/index.js";
 import RansomNote from "../383.RansomNote/index.js";
+import ValidSudoku from "../36.ValidSudoku/index.js";
 import HappyNumber from "../202.HappyNumber/index.js";
 import NumberOfBits from "../191.NumberOfBits/index.js";
 import BinarySearch from "../704.BinarySearch/index.js";
@@ -89,6 +90,11 @@ export const ProblemMap = {
         requiredArguments: 2,
         solution: SearchInsertPosition,
         link: "https://leetcode.com/problems/search-insert-position/"
+    },
+    36: {
+        requiredArguments: 1,
+        solution: ValidSudoku,
+        link: "https://leetcode.com/problems/valid-sudoku/"
     },
     70: {
         requiredArguments: 1,
