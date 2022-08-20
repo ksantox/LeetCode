@@ -14,6 +14,7 @@ import ClimbingStairs from "../70.ClimbingStairs/index.js";
 import RomanToInteger from "../13.RomanToInteger/index.js";
 import FindPivotIndex from "../724.FindPivotIndex/index.js";
 import DuplicateZeros from "../1089.DuplicateZeros/index.js";
+import MaximumSubarray from "../53.MaximumSubarray/index.js";
 import PascalsTriangle from "../118.PascalsTriangle/index.js";
 import FirstBadVersion from "../278.FirstBadVersion/index.js";
 import LinkedListCycle from "../141.LinkedListCycle/index.js";
@@ -96,6 +97,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: ValidSudoku,
         link: "https://leetcode.com/problems/valid-sudoku/"
+    },
+    53: {
+        requiredArguments: 1,
+        solution: MaximumSubarray,
+        link: "https://leetcode.com/problems/maximum-subarray/"
     },
     70: {
         requiredArguments: 1,
