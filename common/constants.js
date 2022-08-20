@@ -56,6 +56,7 @@ import ValidateBinarySearchTree from "../98.ValidateBinarySearchTree/index.js";
 import LargestPerimeterTriangle from "../976.LargestPerimeterTriangle/index.js";
 import RemoveLinkedListElements from "../203.RemoveLinkedListElements/index.js";
 import MaximumDepthOfBinaryTree from "../104.MaximumDepthOfBinaryTree/index.js";
+import GoalParserInterpretation from "../1678.GoalParserInterpretation/index.js";
 import SumOffOddLengthSubarrays from "../1588.SumOffOddLengthSubarrays/index.js";
 import CountOddNumbersFromRange from "../1523.CountOddNumbersFromRange/index.js";
 import ImplementQueueUsingStacks from "../232.ImplementQueueUsingStacks/index.js";
@@ -436,6 +437,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: RichestCustomerWealth,
         link: "https://leetcode.com/problems/richest-customer-wealth/"
+    },
+    1678: {
+        requiredArguments: 1,
+        solution: GoalParserInterpretation,
+        link: "https://leetcode.com/problems/goal-parser-interpretation/"
     },
     1768: {
         requiredArguments: 2,
