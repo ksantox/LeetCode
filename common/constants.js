@@ -9,6 +9,7 @@ import BinarySearch from "../704.BinarySearch/index.js";
 import ValidAnagram from "../242.ValidAnagram/index.js";
 import ReverseString from "../344.ReverseString/index.js";
 import IsSubsequence from "../392.IsSubsequence/index.js";
+import SymmetricTree from "../101.SymmetricTree/index.js";
 import Search2DMatrix from "../74.Search2DMatrix/index.js";
 import ClimbingStairs from "../70.ClimbingStairs/index.js";
 import RomanToInteger from "../13.RomanToInteger/index.js";
@@ -133,6 +134,11 @@ export const ProblemMap = {
         requiredArguments: 0,
         solution: ValidateBinarySearchTree,
         link: "https://leetcode.com/problems/validate-binary-search-tree/"
+    },
+    101: {
+        requiredArguments: 0,
+        solution: SymmetricTree,
+        link: "https://leetcode.com/problems/symmetric-tree/"
     },
     102: {
         requiredArguments: 0,
