@@ -51,6 +51,7 @@ import SearchBinarySearchTree from "../700.SearchBinarySearchTree/index.js";
 import TheWeakestRowsInMatrix from "../1337.TheWeakestRowsInMatrix/index.js";
 import ReverseWordsInStringIII from "../557.ReverseWordsInStringIII/index.js";
 import LowestCommonAncestorBST from "../235.LowestCommonAncestorBST/index.js";
+import MergeStringsAlternately from "../1768.MergeStringsAlternately/index.js";
 import ValidateBinarySearchTree from "../98.ValidateBinarySearchTree/index.js";
 import LargestPerimeterTriangle from "../976.LargestPerimeterTriangle/index.js";
 import RemoveLinkedListElements from "../203.RemoveLinkedListElements/index.js";
@@ -401,6 +402,11 @@ export const ProblemMap = {
         solution: StepsToReduceToZero,
         link: "https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/"
     },
+    1480: {
+        requiredArguments: 1,
+        solution: RunningSumArray,
+        link: "https://leetcode.com/problems/running-sum-of-1d-array/"
+    },
     1491: {
         requiredArguments: 1,
         solution: AverageSalaryExcludingMinAndMax,
@@ -431,10 +437,10 @@ export const ProblemMap = {
         solution: RichestCustomerWealth,
         link: "https://leetcode.com/problems/richest-customer-wealth/"
     },
-    1480: {
-        requiredArguments: 1,
-        solution: RunningSumArray,
-        link: "https://leetcode.com/problems/running-sum-of-1d-array/"
+    1768: {
+        requiredArguments: 2,
+        solution: MergeStringsAlternately,
+        link: "https://leetcode.com/problems/merge-strings-alternately/"
     },
     1779: {
         requiredArguments: 3,
