@@ -19,10 +19,6 @@ function searchBST(root, target) {
     let node = root;
 
     while(node) {
-        if(!node) {
-            continue;
-        }
-
         if(node.val === target) {
             return node;
         }

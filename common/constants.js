@@ -62,6 +62,7 @@ import NaryTreePreorderTraversal from "../589.NaryTreePreorderTraversal/index.js
 import BestTimeToBuyAndSellStock from "../121.BestTimeToBuyAndSellStock/index.js";
 import FindNumbersWithEvenDigits from "../1295.FindNumbersWithEvenDigits/index.js";
 import BinaryTreeInorderTraversal from "../94.BinaryTreeInorderTraversal/index.js";
+import InsertIntoBinarySearchTree from "../701.InsertIntoBinarySearchTree/index.js";
 import BinaryTreePreorderTraversal from "../144.BinaryTreePreorderTraversal/index.js";
 import BinaryTreePostOrderTraversal from "../145.BinaryTreePostOrderTraversal/index.js";
 import BinaryTreeLevelOrderTraversal from "../102.BinaryTreeLevelOrderTraversal/index.js";
@@ -327,6 +328,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: SearchBinarySearchTree,
         link: "https://leetcode.com/problems/search-in-a-binary-search-tree/"
+    },
+    701: {
+        requiredArguments: 1,
+        solution: InsertIntoBinarySearchTree,
+        link: "https://leetcode.com/problems/insert-into-a-binary-search-tree/"
     },
     704: {
         requiredArguments: 2,
