@@ -25,6 +25,7 @@ import RunningSumArray from "../1480.RunningSumArray/index.js";
 import ValidParentheses from "../20.ValidParentheses/index.js";
 import MergeSortedArray from "../88.MergeSortedArray/index.js";
 import ReshapeTheMatrix from "../566.ReshapeTheMatrix/index.js";
+import InvertBinaryTree from "../226.InvertBinaryTree/index.js";
 import FindNearestPoint from "../1779.FindNearestPoint/index.js";
 import LinkedListCycle2 from "../142.LinkedListCycleII/index.js";
 import LongestPalindrome from "../409.LongestPalindrome/index.js";
@@ -215,6 +216,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: ContainsDuplicate,
         link: "https://leetcode.com/problems/contains-duplicate/"
+    },
+    226: {
+        requiredArguments: 0,
+        solution: InvertBinaryTree,
+        link: "https://leetcode.com/problems/invert-binary-tree/"
     },
     232: {
         requiredArguments: 2,
