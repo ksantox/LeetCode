@@ -32,6 +32,7 @@ import LongestPalindrome from "../409.LongestPalindrome/index.js";
 import IsomorphicStrings from "../205.IsomorphicStrings/index.js";
 import ReverseLinkedList from "../206.ReverseLinkedList/index.js";
 import ContainsDuplicate from "../217.ContainsDuplicate/index.js";
+import MatrixDiagonalSum from "../1572.MatrixDiagonalSum/index.js";
 import MaxConsecutiveOnes from "../485.MaxConsecutiveOnes/index.js";
 import MiddleOfLinkedList from "../876.MiddleOfLinkedList/index.js";
 import MergeTwoSortedLists from "../21.MergeTwoSortedLists/index.js";
@@ -414,6 +415,11 @@ export const ProblemMap = {
         requiredArguments: 2,
         solution: CountOddNumbersFromRange,
         link: "https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/"
+    },
+    1572: {
+        requiredArguments: 1,
+        solution: MatrixDiagonalSum,
+        link: "https://leetcode.com/problems/matrix-diagonal-sum/"
     },
     1588: {
         requiredArguments: 1,
