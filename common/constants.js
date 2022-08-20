@@ -46,6 +46,7 @@ import UniqueMorseCodeWords from "../804.UniqueMorseCodeWords/index.js";
 import SignOfProductOfArray from "../1822.SignOfProductOfArray/index.js";
 import RichestCustomerWealth from "../1672.RichestCustomerWealth/index.js";
 import ReduceArraySizeToHalf from "../1338.ReduceArraySizeToHalf/index.js";
+import SearchBinarySearchTree from "../700.SearchBinarySearchTree/index.js";
 import TheWeakestRowsInMatrix from "../1337.TheWeakestRowsInMatrix/index.js";
 import ReverseWordsInStringIII from "../557.ReverseWordsInStringIII/index.js";
 import LowestCommonAncestorBST from "../235.LowestCommonAncestorBST/index.js";
@@ -321,6 +322,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: SplitArrayIntoConsecutiveSubsequences,
         link: "https://leetcode.com/problems/split-array-into-consecutive-subsequences/"
+    },
+    700: {
+        requiredArguments: 1,
+        solution: SearchBinarySearchTree,
+        link: "https://leetcode.com/problems/search-in-a-binary-search-tree/"
     },
     704: {
         requiredArguments: 2,
