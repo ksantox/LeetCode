@@ -28,6 +28,7 @@ import ReshapeTheMatrix from "../566.ReshapeTheMatrix/index.js";
 import InvertBinaryTree from "../226.InvertBinaryTree/index.js";
 import FindNearestPoint from "../1779.FindNearestPoint/index.js";
 import LinkedListCycle2 from "../142.LinkedListCycleII/index.js";
+import FindTheDifference from "../389.FindTheDifference/index.js";
 import LongestPalindrome from "../409.LongestPalindrome/index.js";
 import IsomorphicStrings from "../205.IsomorphicStrings/index.js";
 import ReverseLinkedList from "../206.ReverseLinkedList/index.js";
@@ -276,6 +277,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: FirstUniqueCharacter,
         link: "https://leetcode.com/problems/first-unique-character-in-a-string/"
+    },
+    389: {
+        requiredArguments: 2,
+        solution: FindTheDifference,
+        link: "https://leetcode.com/problems/find-the-difference/"
     },
     392: {
         requiredArguments: 2,
