@@ -16,15 +16,9 @@ function setupArguments(stringNumber) {
 }
 
 function searchBST(root, target) {
-    if(!root) {
-        return null;
-    }
+    let node = root;
 
-    const nodesToTraverse = [root];
-
-    while(nodesToTraverse.length) {
-        const node = nodesToTraverse.pop();
-
+    while(node) {
         if(!node) {
             continue;
         }
@@ -32,9 +26,8 @@ function searchBST(root, target) {
         if(node.val === target) {
             return node;
         }
-        
-        nodesToTraverse.push(node.left);
-        nodesToTraverse.push(node.right);
+
+        node = node.val > target ? node.left : node.right;
     }
 
     return null;
