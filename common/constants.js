@@ -49,6 +49,7 @@ import LowestCommonAncestorBST from "../235.LowestCommonAncestorBST/index.js";
 import ValidateBinarySearchTree from "../98.ValidateBinarySearchTree/index.js";
 import LargestPerimeterTriangle from "../976.LargestPerimeterTriangle/index.js";
 import RemoveLinkedListElements from "../203.RemoveLinkedListElements/index.js";
+import MaximumDepthOfBinaryTree from "../104.MaximumDepthOfBinaryTree/index.js";
 import SumOffOddLengthSubarrays from "../1588.SumOffOddLengthSubarrays/index.js";
 import CountOddNumbersFromRange from "../1523.CountOddNumbersFromRange/index.js";
 import ImplementQueueUsingStacks from "../232.ImplementQueueUsingStacks/index.js";
@@ -137,6 +138,11 @@ export const ProblemMap = {
         requiredArguments: 0,
         solution: BinaryTreeLevelOrderTraversal,
         link: "https://leetcode.com/problems/binary-tree-level-order-traversal/"
+    },
+    104: {
+        requiredArguments: 0,
+        solution: MaximumDepthOfBinaryTree,
+        link: "https://leetcode.com/problems/maximum-depth-of-binary-tree/"
     },
     118: {
         requiredArguments: 1,
