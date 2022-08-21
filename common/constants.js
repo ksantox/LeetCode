@@ -7,6 +7,7 @@ import RansomNote from "../383.RansomNote/index.js";
 import ValidSudoku from "../36.ValidSudoku/index.js";
 import HappyNumber from "../202.HappyNumber/index.js";
 import ReverseBits from "../190.ReverseBits/index.js";
+import SingleNumber from "../136.SingleNumber/index.js";
 import NumberOfBits from "../191.NumberOfBits/index.js";
 import BinarySearch from "../704.BinarySearch/index.js";
 import ValidAnagram from "../242.ValidAnagram/index.js";
@@ -174,6 +175,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: BestTimeToBuyAndSellStock,
         link: "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+    },
+    136: {
+        requiredArguments: 1,
+        solution: SingleNumber,
+        link: "https://leetcode.com/problems/single-number/"
     },
     141: {
         requiredArguments: 2,
