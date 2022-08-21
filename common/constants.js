@@ -2,6 +2,7 @@ import TwoSum from "../1.TwoSum/index.js";
 import PathSum from "../112.PathSum/index.js";
 import TwoSumIV from "../653.TwoSumIV/index.js";
 import FizzBuzz from "../412.FizzBuzz/index.js";
+import PowerOfTwo from "../231.PowerOfTwo/index.js";
 import MoveZeroes from "../283.MoveZeroes/index.js";
 import RansomNote from "../383.RansomNote/index.js";
 import ValidSudoku from "../36.ValidSudoku/index.js";
@@ -240,6 +241,11 @@ export const ProblemMap = {
         requiredArguments: 0,
         solution: InvertBinaryTree,
         link: "https://leetcode.com/problems/invert-binary-tree/"
+    },
+    231: {
+        requiredArguments: 1,
+        solution: PowerOfTwo,
+        link: "https://leetcode.com/problems/power-of-two/"
     },
     232: {
         requiredArguments: 2,
