@@ -1,5 +1,6 @@
 import TwoSum from "../1.TwoSum/index.js";
 import PathSum from "../112.PathSum/index.js";
+import TwoSumII from "../167.TwoSumII/index.js";
 import TwoSumIV from "../653.TwoSumIV/index.js";
 import FizzBuzz from "../412.FizzBuzz/index.js";
 import PowerOfTwo from "../231.PowerOfTwo/index.js";
@@ -202,6 +203,11 @@ export const ProblemMap = {
         requiredArguments: 0,
         solution: BinaryTreePostOrderTraversal,
         link: "https://leetcode.com/problems/binary-tree-postorder-traversal/"
+    },
+    167: {
+        requiredArguments: 2,
+        solution: TwoSumII,
+        link: "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/"
     },
     189: {
         requiredArguments: 2,
