@@ -6,6 +6,7 @@ import MoveZeroes from "../283.MoveZeroes/index.js";
 import RansomNote from "../383.RansomNote/index.js";
 import ValidSudoku from "../36.ValidSudoku/index.js";
 import HappyNumber from "../202.HappyNumber/index.js";
+import ReverseBits from "../190.ReverseBits/index.js";
 import NumberOfBits from "../191.NumberOfBits/index.js";
 import BinarySearch from "../704.BinarySearch/index.js";
 import ValidAnagram from "../242.ValidAnagram/index.js";
@@ -193,6 +194,11 @@ export const ProblemMap = {
         requiredArguments: 0,
         solution: BinaryTreePostOrderTraversal,
         link: "https://leetcode.com/problems/binary-tree-postorder-traversal/"
+    },
+    190: {
+        requiredArguments: 1,
+        solution: ReverseBits,
+        link: "https://leetcode.com/problems/reverse-bits/"
     },
     191: {
         requiredArguments: 1,
