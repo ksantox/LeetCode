@@ -1,5 +1,6 @@
 import TwoSum from "../1.TwoSum/index.js";
 import PathSum from "../112.PathSum/index.js";
+import TwoSumIV from "../653.TwoSumIV/index.js";
 import FizzBuzz from "../412.FizzBuzz/index.js";
 import MoveZeroes from "../283.MoveZeroes/index.js";
 import RansomNote from "../383.RansomNote/index.js";
@@ -327,6 +328,11 @@ export const ProblemMap = {
         requiredArguments: 0,
         solution: NaryTreePreorderTraversal,
         link: "https://leetcode.com/problems/n-ary-tree-preorder-traversal/"
+    },
+    653: {
+        requiredArguments: 1,
+        solution: TwoSumIV,
+        link: "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/"
     },
     659: {
         requiredArguments: 1,
