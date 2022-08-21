@@ -71,6 +71,7 @@ import IntersectionOfTwoArraysII from "../350.IntersectionOfTwoArraysII/index.js
 import NaryTreePreorderTraversal from "../589.NaryTreePreorderTraversal/index.js";
 import BestTimeToBuyAndSellStock from "../121.BestTimeToBuyAndSellStock/index.js";
 import FindNumbersWithEvenDigits from "../1295.FindNumbersWithEvenDigits/index.js";
+import RemoveNthNodeFromEndOfList from "../19.RemoveNthNodeFromEndOfList/index.js";
 import BinaryTreeInorderTraversal from "../94.BinaryTreeInorderTraversal/index.js";
 import InsertIntoBinarySearchTree from "../701.InsertIntoBinarySearchTree/index.js";
 import BinaryTreePreorderTraversal from "../144.BinaryTreePreorderTraversal/index.js";
@@ -93,6 +94,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: RomanToInteger,
         link: "https://leetcode.com/problems/roman-to-integer/"
+    },
+    19: {
+        requiredArguments: 2,
+        solution: RemoveNthNodeFromEndOfList,
+        link: "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
     },
     20: {
         requiredArguments: 1,
