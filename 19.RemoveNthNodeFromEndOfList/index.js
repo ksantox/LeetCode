@@ -29,8 +29,4 @@ function removeNthFromEnd(head, indexOfRemoval) {
     return dummy.next;
 }
 
-// setupArguments("[1,2,3,4,5,6]", 1);
-// setupArguments("[1,2]", 2);
-setupArguments("[1,2,3]", 2);
-
 export default setupArguments;

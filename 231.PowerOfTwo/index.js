@@ -7,12 +7,8 @@ function isPowerOfTwo(number) {
     if (number <= 0) {
         return false;
     }
-    
-    if ((number & (number - 1)) === 0) {
-        return true;
-    }
 
-    return false;
+    return (number & (number - 1)) === 0;
 };
 
 export default setupArguments;

@@ -7,6 +7,7 @@ import PowerOfTwo from "../231.PowerOfTwo/index.js";
 import MoveZeroes from "../283.MoveZeroes/index.js";
 import RansomNote from "../383.RansomNote/index.js";
 import ValidSudoku from "../36.ValidSudoku/index.js";
+import PowerOfFour from "../342.PowerOfFour/index.js";
 import RotateArray from "../189.RotateArray/index.js";
 import HappyNumber from "../202.HappyNumber/index.js";
 import ReverseBits from "../190.ReverseBits/index.js";
@@ -294,6 +295,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: MoveZeroes,
         link: "https://leetcode.com/problems/move-zeroes/"
+    },
+    342: {
+        requiredArguments: 1,
+        solution: PowerOfFour,
+        link: "https://leetcode.com/problems/power-of-four/"
     },
     344: {
         requiredArguments: 1,
