@@ -6,6 +6,7 @@ import FizzBuzz from "../412.FizzBuzz/index.js";
 import PowerOfTwo from "../231.PowerOfTwo/index.js";
 import MoveZeroes from "../283.MoveZeroes/index.js";
 import RansomNote from "../383.RansomNote/index.js";
+import UniquePaths from "../62.UniquePaths/index.js";
 import ValidSudoku from "../36.ValidSudoku/index.js";
 import PowerOfFour from "../342.PowerOfFour/index.js";
 import RotateArray from "../189.RotateArray/index.js";
@@ -126,6 +127,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: MaximumSubarray,
         link: "https://leetcode.com/problems/maximum-subarray/"
+    },
+    62: {
+        requiredArguments: 2,
+        solution: UniquePaths,
+        link: "https://leetcode.com/problems/unique-paths/"
     },
     70: {
         requiredArguments: 1,
