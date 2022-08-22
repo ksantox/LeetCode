@@ -60,6 +60,7 @@ import SignOfProductOfArray from "../1822.SignOfProductOfArray/index.js";
 import MinCostClimbingStairs from "../746.MinCostClimbingStairs/index.js";
 import RichestCustomerWealth from "../1672.RichestCustomerWealth/index.js";
 import ReduceArraySizeToHalf from "../1338.ReduceArraySizeToHalf/index.js";
+import BackspaceStringCompare from "../844.BackspaceStringCompare/index.js";
 import SearchBinarySearchTree from "../700.SearchBinarySearchTree/index.js";
 import TheWeakestRowsInMatrix from "../1337.TheWeakestRowsInMatrix/index.js";
 import ReverseWordsInStringIII from "../557.ReverseWordsInStringIII/index.js";
@@ -430,6 +431,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: UniqueMorseCodeWords,
         link: "https://leetcode.com/problems/unique-morse-code-words/"
+    },
+    844: {
+        requiredArguments: 2,
+        solution: BackspaceStringCompare,
+        link: "https://leetcode.com/problems/backspace-string-compare/"
     },
     876: {
         requiredArguments: 1,
