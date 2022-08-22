@@ -12,6 +12,7 @@ import PowerOfFour from "../342.PowerOfFour/index.js";
 import RotateArray from "../189.RotateArray/index.js";
 import HappyNumber from "../202.HappyNumber/index.js";
 import ReverseBits from "../190.ReverseBits/index.js";
+import BullsAndCows from "../299.BullsAndCows/index.js";
 import SingleNumber from "../136.SingleNumber/index.js";
 import NumberOfBits from "../191.NumberOfBits/index.js";
 import BinarySearch from "../704.BinarySearch/index.js";
@@ -302,6 +303,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: MoveZeroes,
         link: "https://leetcode.com/problems/move-zeroes/"
+    },
+    299: {
+        requiredArguments: 2,
+        solution: BullsAndCows,
+        link: "https://leetcode.com/problems/bulls-and-cows/"
     },
     342: {
         requiredArguments: 1,
