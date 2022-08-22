@@ -53,6 +53,7 @@ import SquaresOfSortedArray from "../977.SquaresOfSortedArray/index.js";
 import PalindromeLinkedList from "../234.PalindromeLinkedList/index.js";
 import UniqueMorseCodeWords from "../804.UniqueMorseCodeWords/index.js";
 import SignOfProductOfArray from "../1822.SignOfProductOfArray/index.js";
+import MinCostClimbingStairs from "../746.MinCostClimbingStairs/index.js";
 import RichestCustomerWealth from "../1672.RichestCustomerWealth/index.js";
 import ReduceArraySizeToHalf from "../1338.ReduceArraySizeToHalf/index.js";
 import SearchBinarySearchTree from "../700.SearchBinarySearchTree/index.js";
@@ -400,6 +401,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: FindPivotIndex,
         link: "https://leetcode.com/problems/find-pivot-index/"
+    },
+    746: {
+        requiredArguments: 1,
+        solution: MinCostClimbingStairs,
+        link: "https://leetcode.com/problems/min-cost-climbing-stairs/"
     },
     804: {
         requiredArguments: 1,
