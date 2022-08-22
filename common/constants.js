@@ -17,6 +17,7 @@ import SingleNumber from "../136.SingleNumber/index.js";
 import NumberOfBits from "../191.NumberOfBits/index.js";
 import BinarySearch from "../704.BinarySearch/index.js";
 import ValidAnagram from "../242.ValidAnagram/index.js";
+import DecodeString from "../394.DecodeString/index.js";
 import ReverseString from "../344.ReverseString/index.js";
 import IsSubsequence from "../392.IsSubsequence/index.js";
 import SymmetricTree from "../101.SymmetricTree/index.js";
@@ -444,6 +445,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: SquaresOfSortedArray,
         link: "https://leetcode.com/problems/squares-of-a-sorted-array/"
+    },
+    1046: {
+        requiredArguments: 1,
+        solution: DecodeString,
+        link: "https://leetcode.com/problems/decode-string/"
     },
     1089: {
         requiredArguments: 1,
