@@ -33,6 +33,7 @@ import FibonacciNumber from "../509.FibonacciNumber/index.js";
 import RunningSumArray from "../1480.RunningSumArray/index.js";
 import ValidParentheses from "../20.ValidParentheses/index.js";
 import MergeSortedArray from "../88.MergeSortedArray/index.js";
+import TopFrequentWords from "../692.TopFrequentWords/index.js";
 import ReshapeTheMatrix from "../566.ReshapeTheMatrix/index.js";
 import InvertBinaryTree from "../226.InvertBinaryTree/index.js";
 import FindNearestPoint from "../1779.FindNearestPoint/index.js";
@@ -393,6 +394,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: SplitArrayIntoConsecutiveSubsequences,
         link: "https://leetcode.com/problems/split-array-into-consecutive-subsequences/"
+    },
+    692: {
+        requiredArguments: 2,
+        solution: TopFrequentWords,
+        link: "https://leetcode.com/problems/top-k-frequent-words/"
     },
     700: {
         requiredArguments: 1,
