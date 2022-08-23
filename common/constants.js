@@ -78,6 +78,7 @@ import ImplementQueueUsingStacks from "../232.ImplementQueueUsingStacks/index.js
 import IntersectionOfTwoArraysII from "../350.IntersectionOfTwoArraysII/index.js";
 import NaryTreePreorderTraversal from "../589.NaryTreePreorderTraversal/index.js";
 import BestTimeToBuyAndSellStock from "../121.BestTimeToBuyAndSellStock/index.js";
+import DecryptStringFromAlphabet from "../1309.DecryptStringFromAlphabet/index.js";
 import FindNumbersWithEvenDigits from "../1295.FindNumbersWithEvenDigits/index.js";
 import RemoveNthNodeFromEndOfList from "../19.RemoveNthNodeFromEndOfList/index.js";
 import BinaryTreeInorderTraversal from "../94.BinaryTreeInorderTraversal/index.js";
@@ -482,6 +483,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: FindNumbersWithEvenDigits,
         link: "https://leetcode.com/problems/find-numbers-with-even-number-of-digits/"
+    },
+    1309: {
+        requiredArguments: 1,
+        solution: DecryptStringFromAlphabet,
+        link: "https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/"
     },
     1337: {
         defaults: ["matrix"],
