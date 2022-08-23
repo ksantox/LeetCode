@@ -32,6 +32,7 @@ import PascalsTriangle from "../118.PascalsTriangle/index.js";
 import FirstBadVersion from "../278.FirstBadVersion/index.js";
 import LinkedListCycle from "../141.LinkedListCycle/index.js";
 import FibonacciNumber from "../509.FibonacciNumber/index.js";
+import SumOfLeftLeaves from "../404.SumOfLeftLeaves/index.js";
 import RunningSumArray from "../1480.RunningSumArray/index.js";
 import ValidParentheses from "../20.ValidParentheses/index.js";
 import MergeSortedArray from "../88.MergeSortedArray/index.js";
@@ -349,6 +350,11 @@ export const ProblemMap = {
         requiredArguments: 2,
         solution: IsSubsequence,
         link: "https://leetcode.com/problems/is-subsequence/"
+    },
+    404: {
+        requiredArguments: 0,
+        solution: SumOfLeftLeaves,
+        link: "https://leetcode.com/problems/sum-of-left-leaves/"
     },
     409: {
         requiredArguments: 1,
