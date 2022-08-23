@@ -12,6 +12,7 @@ import PowerOfFour from "../342.PowerOfFour/index.js";
 import RotateArray from "../189.RotateArray/index.js";
 import HappyNumber from "../202.HappyNumber/index.js";
 import ReverseBits from "../190.ReverseBits/index.js";
+import ToLowerCase from "../709.ToLowerCase/index.js";
 import BullsAndCows from "../299.BullsAndCows/index.js";
 import SingleNumber from "../136.SingleNumber/index.js";
 import NumberOfBits from "../191.NumberOfBits/index.js";
@@ -416,6 +417,11 @@ export const ProblemMap = {
         requiredArguments: 2,
         solution: BinarySearch,
         link: "https://leetcode.com/problems/binary-search/solution/",
+    },
+    709: {
+        requiredArguments: 1,
+        solution: ToLowerCase,
+        link: "https://leetcode.com/problems/to-lower-case/"
     },
     724: {
         requiredArguments: 1,

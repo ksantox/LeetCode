@@ -10,12 +10,7 @@ function lastStoneWeight(stones) {
         return stones[0];
     }
 
-    const indexMap = {};
-    
-    for (let i = 0; i < stones.length; i++) {
-        const element = stones[i];
-        
-    }
+    return "Not Implemented";
 }
 
-export default lastStoneWeight;
+export default setupArguments;
