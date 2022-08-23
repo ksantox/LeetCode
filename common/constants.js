@@ -86,6 +86,7 @@ import InsertIntoBinarySearchTree from "../701.InsertIntoBinarySearchTree/index.
 import BinaryTreePreorderTraversal from "../144.BinaryTreePreorderTraversal/index.js";
 import BinaryTreePostOrderTraversal from "../145.BinaryTreePostOrderTraversal/index.js";
 import BinaryTreeLevelOrderTraversal from "../102.BinaryTreeLevelOrderTraversal/index.js";
+import ConvertBinaryNumberLinkedList from "../1290.ConvertBinaryNumberLinkedList/index.js";
 import SubtractProductAndSumOfDigits from "../1281.SubtractProductAndSumOfDigits/index.js";
 import RemoveDuplicatesFromSortedList from "../83.RemoveDuplicatesFromSortedList/index.js";
 import AverageSalaryExcludingMinAndMax from "../1491.AverageSalaryExcludingMinAndMax/index.js";
@@ -478,6 +479,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: SubtractProductAndSumOfDigits,
         link: "https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/"
+    },
+    1290: {
+        requiredArguments: 1,
+        solution: ConvertBinaryNumberLinkedList,
+        link: "https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/"
     },
     1295: {
         requiredArguments: 1,
