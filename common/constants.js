@@ -83,6 +83,7 @@ import DecryptStringFromAlphabet from "../1309.DecryptStringFromAlphabet/index.j
 import FindNumbersWithEvenDigits from "../1295.FindNumbersWithEvenDigits/index.js";
 import RemoveNthNodeFromEndOfList from "../19.RemoveNthNodeFromEndOfList/index.js";
 import BinaryTreeInorderTraversal from "../94.BinaryTreeInorderTraversal/index.js";
+import VerifyingAnAlienDictionary from "../953.VerifyingAnAlienDictionary/index.js";
 import InsertIntoBinarySearchTree from "../701.InsertIntoBinarySearchTree/index.js";
 import BinaryTreePreorderTraversal from "../144.BinaryTreePreorderTraversal/index.js";
 import BinaryTreePostOrderTraversal from "../145.BinaryTreePostOrderTraversal/index.js";
@@ -456,6 +457,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: MiddleOfLinkedList,
         link: "https://leetcode.com/problems/middle-of-the-linked-list/"
+    },
+    953: {
+        requiredArguments: 2,
+        solution: VerifyingAnAlienDictionary,
+        link: "https://leetcode.com/problems/verifying-an-alien-dictionary/"
     },
     976: {
         requiredArguments: 1,
