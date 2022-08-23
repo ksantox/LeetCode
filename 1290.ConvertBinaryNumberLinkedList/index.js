@@ -17,6 +17,4 @@ function getDecimalValue(head) {
     return parseInt(stringBinary, 2);
 }
 
-setupArguments("[1,0,1]");
-
 export default setupArguments;

@@ -87,6 +87,7 @@ import InsertIntoBinarySearchTree from "../701.InsertIntoBinarySearchTree/index.
 import BinaryTreePreorderTraversal from "../144.BinaryTreePreorderTraversal/index.js";
 import BinaryTreePostOrderTraversal from "../145.BinaryTreePostOrderTraversal/index.js";
 import BinaryTreeLevelOrderTraversal from "../102.BinaryTreeLevelOrderTraversal/index.js";
+import SortIntegersByNumberOfOneBits from "../1356.SortIntegersByNumberOfOneBits/index.js";
 import ConvertBinaryNumberLinkedList from "../1290.ConvertBinaryNumberLinkedList/index.js";
 import SubtractProductAndSumOfDigits from "../1281.SubtractProductAndSumOfDigits/index.js";
 import RemoveDuplicatesFromSortedList from "../83.RemoveDuplicatesFromSortedList/index.js";
@@ -516,6 +517,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: StepsToReduceToZero,
         link: "https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/"
+    },
+    1356: {
+        requiredArguments: 1,
+        solution: SortIntegersByNumberOfOneBits,
+        link: "https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/"
     },
     1480: {
         requiredArguments: 1,
