@@ -55,6 +55,7 @@ import NextGreaterElementI from "../496.NextGreaterElementI/index.js";
 import StepsToReduceToZero from "../1342.StepsToReduceToZero/index.js";
 import SearchInsertPosition from "../35.SearchInsertPosition/index.js";
 import CheckIfStraightLine from "../1232.CheckIfStraightLine/index.js";
+import DesignParkingSystem from "../1603.DesignParkingSystem/index.js";
 import FirstUniqueCharacter from "../387.FirstUniqueCharacter/index.js";
 import SquaresOfSortedArray from "../977.SquaresOfSortedArray/index.js";
 import PalindromeLinkedList from "../234.PalindromeLinkedList/index.js";
@@ -564,6 +565,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: SumOffOddLengthSubarrays,
         link: "https://leetcode.com/problems/sum-of-all-odd-length-subarrays/"
+    },
+    1603: {
+        requiredArguments: 4,
+        solution: DesignParkingSystem,
+        link: "https://leetcode.com/problems/design-parking-system/"
     },
     1672: {
         requiredArguments: 1,
