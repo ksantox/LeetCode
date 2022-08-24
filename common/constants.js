@@ -22,6 +22,7 @@ import DecodeString from "../394.DecodeString/index.js";
 import ReverseString from "../344.ReverseString/index.js";
 import IsSubsequence from "../392.IsSubsequence/index.js";
 import SymmetricTree from "../101.SymmetricTree/index.js";
+import RangeSumQuery from "../303.RangeSumQuery/index.js";
 import Search2DMatrix from "../74.Search2DMatrix/index.js";
 import ClimbingStairs from "../70.ClimbingStairs/index.js";
 import RomanToInteger from "../13.RomanToInteger/index.js";
@@ -317,6 +318,11 @@ export const ProblemMap = {
         requiredArguments: 2,
         solution: BullsAndCows,
         link: "https://leetcode.com/problems/bulls-and-cows/"
+    },
+    303: {
+        requiredArguments: 3,
+        solution: RangeSumQuery,
+        link: "https://leetcode.com/problems/range-sum-query-immutable/"
     },
     342: {
         requiredArguments: 1,
