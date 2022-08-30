@@ -8,6 +8,7 @@ import MoveZeroes from "../283.MoveZeroes/index.js";
 import RansomNote from "../383.RansomNote/index.js";
 import UniquePaths from "../62.UniquePaths/index.js";
 import ValidSudoku from "../36.ValidSudoku/index.js";
+import RotateImage from "../48.RotateImage/index.js";
 import PowerOfFour from "../342.PowerOfFour/index.js";
 import RotateArray from "../189.RotateArray/index.js";
 import HappyNumber from "../202.HappyNumber/index.js";
@@ -134,6 +135,11 @@ export const ProblemMap = {
         requiredArguments: 1,
         solution: ValidSudoku,
         link: "https://leetcode.com/problems/valid-sudoku/"
+    },
+    48: {
+        requiredArguments: 1,
+        solution: RotateImage,
+        link: "https://leetcode.com/problems/rotate-image/"
     },
     53: {
         requiredArguments: 1,
